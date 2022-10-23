@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="80%" src="git-assets/United_War_Transparent_Logo_003.png">
+  <img width="80%" src="git/img/United_War_Transparent_Logo_003.png">
 </p>
 
 
