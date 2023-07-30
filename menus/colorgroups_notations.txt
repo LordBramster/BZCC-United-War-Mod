@@ -1,0 +1,37 @@
+//
+// MENU | CYAN BLUE
+//
+32ffff - Cyan Bright Foreground 	(50, 255, 255)
+0a3a44 - Cyan Darker Background		(10, 58, 68)
+062e3a - Cyan Darker Gradient		(6, 46, 58)
+306969 - Cyan Dark Background		(28, 85, 85)		v2:(50, 222, 233, 100)
+306164 - Cyan Dark Gradient			(28, 77, 80)		v2:(50, 193, 233, 75)
+306969 - Cyan Light Background		(48, 105, 105)
+306164 - Cyan Light Gradient		(48, 97, 100)
+
+
+//
+// MENU | ORANGE FIRE
+//
+ffffff - Orange White Foreground	(255, 255, 255)
+c55236 - Orange Dark Background		(197, 82, 54)
+863d2b - Orange Faded Background 	(134, 61, 43)
+f95c32 - Orange Bright Foreground	(249, 92, 50)
+e55834 - Orange Bright Background 	(229, 88, 52)
+
+//
+// MENU | GOLD
+// 
+ffebb2 - Gold Light Foreground 		(255, 235, 178)
+ffa062 - Gold Light Background 		(255, 160, 98)
+ea914e - Gold Light Gradient 		(234, 145, 78)
+c88942 - Gold Dark Background		(200, 137, 66)
+ea914e - Gold Dark Gradient			(234, 145, 78)
+9d671e - Gold Darkest Background	(157, 103, 30)
+8c572f - Gold Darkest Gradient		(140, 87, 47)
+
+//
+// TEXT | YELLOW
+//
+ffb23c - Yellow Base 				(255, 178, 60)
+734d14 - Yellow Dark				(115, 77, 20)
