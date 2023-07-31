@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!-- STRIPES -->
 <p align="center">
-  <img width="100%" src="git/img/UW_stripes_002.png">
+  <img width="100%" src="git/img/United_War_Stripes_003.png">
 </p>
 
 <!-- YOUTUBE -->
@@ -51,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!-- STRIPES -->
 <p align="center">
-  <img width="100%" src="git/img/UW_stripes.png">
+  <img width="100%" src="git/img/United_War_Stripes_003.png">
 </p>
 
 <!--
