@@ -23,14 +23,13 @@
 <!-- YOUTUBE -->
 <h2 align="center">YouTube Content</h2>
 <p align="center">
-    <a href="https://youtu.be/EVa0s_1YSXY">TEMP</a>
-    <a href="https://youtu.be/Gg-AC4nS0YA">TEMP</a>
-    <br>
+    <a href="https://youtu.be/EVa0s_1YSXY">
+        <img width="40%" src="http://img.youtube.com/vi/EVa0s_1YSXY/0.jpg">
+    </a>
+    <a href="https://youtu.be/Gg-AC4nS0YA">
+        <img width="40%" src="http://img.youtube.com/vi/Gg-AC4nS0YA/0.jpg">
+    </a>
 </p>
-
-<a href="https://youtu.be/EVa0s_1YSXY">
-  <img width="50%" src="http://img.youtube.com/vi/EVa0s_1YSXY/0.jpg">
-</a>
 
 <br>
 
