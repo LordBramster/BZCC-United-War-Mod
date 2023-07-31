@@ -30,6 +30,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <br>
 
+
+<!-- STRIPES -->
+<p align="center">
+  <img width="100%" src="git/img/UW_stripes_002.png">
+</p>
+
 <!-- YOUTUBE -->
 <h2 align="center"><img width="2%" src="https://img.icons8.com/?size=1x&id=19318&format=png"> YouTube Content</h2>
 <p align="center">
@@ -42,6 +48,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 
 <br>
+
+<!-- STRIPES -->
+<p align="center">
+  <img width="100%" src="git/img/UW_stripes.png">
+</p>
 
 <!--
 https://github.com/chroline/well_app#readme\
