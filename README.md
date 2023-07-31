@@ -2,24 +2,36 @@
 
 <!-- INTRO -->
 <p align="center">
-  <img width="20%" src="git/img/UDF-Vector-square-orn.png">
+  <img width="20%" src="git/img/UDF-Vector-square.png">
   <br><br>
-  <img width="40%" src="git/img/United_War_Transparent_Logo_004.png">
+  <img width="40%" src="git/img/United_War_Transparent_Logo_005.png">
 </p>
 
 <hr>
 
 <!-- DESCRIPTION -->
-<h4 align="center">This mod is a work-in-progress. Do not expect final results, since content is subject to change.</h4>
+<h6 align="center">This mod is a work-in-progress. Do not expect final results, since content is subject to change.</h6>
 <p align="center">
     <a href="https://steamcommunity.com/workshop/browse/?appid=624970&browsesort=trend&section=readytouseitems"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Find%20It%20On%20The%20Steam%20Workshop%20-14354C?style=for-the-badge&logoColor=white&logo=steam"/></a>
     <br>
 </p>
 
+<!-- STATS -->
+<p align="center">
+    <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/484782972?color=14354C&label=Views&style=for-the-badge&logo=steam&logoColor=white"></a>
+    <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/484782972?color=14354C&label=Downloads&style=for-the-badge&logo=steam&logoColor=white"></a>
+  <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'>
+<img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge'>
+  
+
+</p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 <br>
 
 <!-- YOUTUBE -->
-<h2 align="center">YouTube Content</h2>
+<h2 align="center"><img width="2%" src="https://img.icons8.com/?size=1x&id=19318&format=png"> YouTube Content</h2>
 <p align="center">
     <a href="https://youtu.be/EVa0s_1YSXY">
         <img width="40%" src="http://img.youtube.com/vi/EVa0s_1YSXY/maxresdefault.jpg">
@@ -30,14 +42,6 @@
 </p>
 
 <br>
-
-<!-- STATS -->
-<h2 align="center">Mod Statistics</h2>
-<p align="center">
-    <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/484782972?color=14354C&label=Steam%20Workshop%20Views&style=for-the-badge&logo=steam&logoColor=white"></a>
-    <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/484782972?color=14354C&label=Mod%20Downloads&style=for-the-badge&logo=steam&logoColor=white"></a>
-    <br>
-</p>
 
 <!--
 https://github.com/chroline/well_app#readme\
