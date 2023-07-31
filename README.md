@@ -24,10 +24,10 @@
 <h2 align="center">YouTube Content</h2>
 <p align="center">
     <a href="https://youtu.be/EVa0s_1YSXY">
-        <img width="40%" src="http://img.youtube.com/vi/EVa0s_1YSXY/0.jpg">
+        <img width="40%" src="http://img.youtube.com/vi/EVa0s_1YSXY/maxresdefault.jpg">
     </a>
     <a href="https://youtu.be/Gg-AC4nS0YA">
-        <img width="40%" src="http://img.youtube.com/vi/Gg-AC4nS0YA/0.jpg">
+        <img width="40%" src="http://img.youtube.com/vi/Gg-AC4nS0YA/maxresdefault.jpg">
     </a>
 </p>
 
