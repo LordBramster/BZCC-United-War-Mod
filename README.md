@@ -12,14 +12,14 @@
 <!-- DESCRIPTION -->
 <h6 align="center">This mod is a work-in-progress. Do not expect final results, since content is subject to change.</h6>
 <p align="center">
-    <a href="https://steamcommunity.com/workshop/browse/?appid=624970&browsesort=trend&section=readytouseitems"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Find%20It%20On%20The%20Steam%20Workshop%20-14354C?style=for-the-badge&logoColor=white&logo=steam"/></a>
+    <a href="https://steamcommunity.com/workshop/browse/?appid=624970&browsesort=trend&section=readytouseitems"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Find%20It%20On%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam"/></a>
     <br>
 </p>
 
 <!-- STATS -->
 <p align="center">
-    <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/484782972?color=14354C&label=Views&style=for-the-badge&logo=steam&logoColor=white"></a>
-    <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/484782972?color=14354C&label=Downloads&style=for-the-badge&logo=steam&logoColor=white"></a>
+    <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/484782972?color=205479&label=Views&style=for-the-badge&logo=steam&logoColor=white"></a>
+    <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/484782972?color=205479&label=Downloads&style=for-the-badge&logo=steam&logoColor=white"></a>
   <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'>
 <img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge'>
   
