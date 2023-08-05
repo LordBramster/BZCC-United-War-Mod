@@ -11,7 +11,7 @@
 <br>
 
 <!-- DESCRIPTION -->
-<p align="center">UNITED WAR</p>
+<h3 align="center">UNITED WAR</h3>
 <h6 align="center">This mod is a work-in-progress. Mod assets and Repository content are subject to change.</h6>
 <br>
 <p align="center">
