@@ -14,9 +14,10 @@
 
 <!-- STATS -->
 <p align="center">
-    <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/484782972?color=205479&label=Views&style=for-the-badge&logo=steam&logoColor=white&labelColor=222f40"></a>
-    <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/484782972?color=205479&label=Downloads&style=for-the-badge&logo=steam&logoColor=white&labelColor=222f40"></a>
-    <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge&labelColor=222f40'>
+    <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/1534710658?color=222f40&label=Views&style=for-the-badge&logo=steam&logoColor=white&labelColor=23FDD835"></a>
+    <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/1534710658?color=222f40&label=Downloads&style=for-the-badge&logo=steam&logoColor=white&labelColor=23FDD835"></a>
+    <!--<a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge&&logo=git&labelColor=222f40'>-->
+  <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/badge/%20unreleased-grey?style=for-the-badge&logo=git&logoColor=white&color=f55200&label=Version'>
     <br>
 </p>
 
@@ -31,6 +32,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <!--<img width="40%" src="git/img/United_War_Transparent_Logo_005.png">-->
   <img width="100%" src="git/img/BZCC_Title_Bar_s.png">
 </p>
+
+
+| Contributors | Role |
+| --- | --- |
+| `Cygnus-X1` | 3D Artist |
+| `Katherlyn` | 3D Models |
+| `F9Bomber` | Programmer |
+| `Shock` | Art and Promotional Content |
+| `Feign` | Art and Promotional Content |
+| `Jack Forsythe` | Weapons and ODFs |
+| `GrizzlyOne` | Weapons and ODFs |
+| `General Black Dragon` | Interfaces and FX |
+
 <hr>
 <br>
 
@@ -56,16 +70,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p align="center">
   <img width="100%" src="git/img/United_War_Stripes_003.png">
 </p>
-
-| Contributors | Role |
-| --- | --- |
-| `Cygnus-X1` | 3D Artist |
-| `Katherlyn` | 3D Models |
-| `F9Bomber` | Programmer |
-| `Shock` | Art/Promotional |
-| `Jack Forsythe` | Weapons/.ODFs |
-| `GrizzlyOne` | Weapons/.ODFs |
-| `General Black Dragon` | UI/FX |
 
 <!--
 https://github.com/chroline/well_app#readme\
