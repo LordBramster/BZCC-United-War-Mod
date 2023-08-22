@@ -1,15 +1,5 @@
 <br>
 
-<!-- INTRO -->
-<p align="center">
-  <img width="20%" src="git/img/UDF-Vector-square.png">
-  <br><br>
-  <!--<img width="40%" src="git/img/United_War_Transparent_Logo_005.png">-->
-  <img width="100%" src="git/img/BZCC_Title_Bar_s.png">
-</p>
-<hr>
-<br>
-
 <!-- DESCRIPTION -->
 <p align="center">
   <img width="65%" src="git/img/United_War_Mod_Banner_2.png">
@@ -34,6 +24,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <br>
 
+<!-- INTRO -->
+<p align="center">
+  <img width="20%" src="git/img/UDF-Vector-square.png">
+  <br><br>
+  <!--<img width="40%" src="git/img/United_War_Transparent_Logo_005.png">-->
+  <img width="100%" src="git/img/BZCC_Title_Bar_s.png">
+</p>
+<hr>
+<br>
 
 <!-- STRIPES -->
 <p align="center">
