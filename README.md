@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 
 <!-- YOUTUBE -->
-<h2 align="center"><img width="2%" src="https://img.icons8.com/?size=1x&id=19318&format=png"> YouTube Content</h2>
+<h2 align="center"><img width="2%" src="https://img.icons8.com/?size=1x&id=19318&format=png"> YouTube Showcase</h2>
 <p align="center">
     <a href="https://youtu.be/EVa0s_1YSXY">
         <img width="40%" src="http://img.youtube.com/vi/EVa0s_1YSXY/maxresdefault.jpg">
