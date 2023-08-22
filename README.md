@@ -3,14 +3,12 @@
 <!-- DESCRIPTION -->
 <p align="center">
   <img width="65%" src="git/img/United_War_Mod_Banner_2.png">
+  <br><br>
+  <img width="100%" src="git/img/BZCC_Title_Bar_s.png">
   <!--<h3 align="center">UNITED WAR</h3>-->
 </p>
 <h6 align="center">This mod is a work-in-progress. Contents of this repository are subject to change.</h6>
 <br>
-<p align="center">
-    <a href="https://steamcommunity.com/workshop/browse/?appid=624970&browsesort=trend&section=readytouseitems"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Find%20It%20On%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
-    <br>
-</p>
 
 <!-- STATS -->
 <p align="center">
@@ -29,8 +27,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p align="center">
   <img width="20%" src="git/img/UDF-Vector-square.png">
   <br><br>
+  <a href="https://steamcommunity.com/workshop/browse/?appid=624970&browsesort=trend&section=readytouseitems"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Find%20It%20On%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+  <br>
+  <br>
   <!--<img width="40%" src="git/img/United_War_Transparent_Logo_005.png">-->
-  <img width="100%" src="git/img/BZCC_Title_Bar_s.png">
 </p>
 
 
