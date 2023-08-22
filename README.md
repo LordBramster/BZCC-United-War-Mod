@@ -11,8 +11,11 @@
 <br>
 
 <!-- DESCRIPTION -->
-<h3 align="center">UNITED WAR</h3>
-<h6 align="center">This mod is a work-in-progress. Mod assets and Repository content are subject to change.</h6>
+<p align="center">
+  <img width="65%" src="git/img/United_War_Mod_Banner_2.png">
+  <!--<h3 align="center">UNITED WAR</h3>-->
+</p>
+<h6 align="center">This mod is a work-in-progress. Contents of this repository are subject to change.</h6>
 <br>
 <p align="center">
     <a href="https://steamcommunity.com/workshop/browse/?appid=624970&browsesort=trend&section=readytouseitems"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Find%20It%20On%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
@@ -23,10 +26,8 @@
 <p align="center">
     <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/484782972?color=205479&label=Views&style=for-the-badge&logo=steam&logoColor=white&labelColor=222f40"></a>
     <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/484782972?color=205479&label=Downloads&style=for-the-badge&logo=steam&logoColor=white&labelColor=222f40"></a>
-  <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'>
-<img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge&labelColor=222f40'>
-  
-
+    <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge&labelColor=222f40'>
+    <br>
 </p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
