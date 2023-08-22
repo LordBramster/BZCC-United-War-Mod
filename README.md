@@ -57,6 +57,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <img width="100%" src="git/img/United_War_Stripes_003.png">
 </p>
 
+| Contributors | Role |
+| --- | --- |
+| `Cygnus-X1` | 3D Artist |
+| `Katherlyn` | 3D Models |
+| `F9Bomber` | Programmer |
+| `Shock` | Art/Promotional |
+| `Jack Forsythe` | Weapons/.ODFs |
+| `GrizzlyOne` | Weapons/.ODFs |
+| `General Black Dragon` | UI/FX |
+
 <!--
 https://github.com/chroline/well_app#readme\
 https://github.com/CCOSTAN/Home-AssistantConfig#readme
