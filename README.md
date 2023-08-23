@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | `GrizzlyOne` | Weapons and ODFs |
 | `General Black Dragon` | Interfaces and FX |
 
-| Special Thanks | for |
+| Special Thanks | To |
 | --- | --- |
 | `GrizzlyOne` | Playtesting |
 | `BlackDog` | Playtesting |
