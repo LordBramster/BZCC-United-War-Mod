@@ -47,8 +47,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 | Special Thanks | To |
 | --- | --- |
-| `GrizzlyOne` | Playtesting |
 | `BlackDog` | Playtesting |
+| `GrizzlyOne` | Playtesting |
 | `BlueBanana` | Heightmapping |
 | `Nielk1` | Scripting/Code |
 
