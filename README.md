@@ -33,8 +33,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <!--<img width="40%" src="git/img/United_War_Transparent_Logo_005.png">-->
 </p>
 
-
-| Contributors | Role |
+<!-- CONTRIBUTION -->
+| Contributors | Development |
 | --- | --- |
 | `Cygnus-X1` | 3D Artist |
 | `Katherlyn` | 3D Models |
@@ -44,6 +44,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | `Jack Forsythe` | Weapons and ODFs |
 | `GrizzlyOne` | Weapons and ODFs |
 | `General Black Dragon` | Interfaces and FX |
+
+| Special Thanks | for |
+| --- | --- |
+| `GrizzlyOne` | Playtesting |
+| `BlackDog` | Playtesting |
+| `BlueBanana` | Heightmapping |
+| `Nielk1` | Scripting/Code |
 
 <hr>
 <br>
@@ -83,4 +90,10 @@ https://github.com/CCOSTAN/Home-AssistantConfig#readme
   United War BATTLEZONE
 </h1>
 <br>
+-->
+
+<!--
+| <img src=".\Images\image.jpg" width="300"> |
+| :----------------------------------------: |
+|      **Figure 1.** _This is a caption_     |
 -->
