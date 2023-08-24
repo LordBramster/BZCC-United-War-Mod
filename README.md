@@ -23,7 +23,7 @@
 - New single-player campaign and new environments.
 - Three new factions (with unique build trees and play-styles).
 - New vehicles, buildings, and weapons.
-- New maps, and includes reimagined stock maps.
+- New maps, including reimagined stock maps.
 - New scripted side-missions and gamemodes.
 - Better Interface and FX.
 - Better overhauled aspects of the stock game.
