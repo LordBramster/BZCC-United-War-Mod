@@ -1,0 +1,28 @@
+[Scatter_udf]
+baseName = "scatter_udf"
+simulateBase = "sim_ember"
+renderBase = "draw_multi"
+lifeTime = 2.5
+renderCount = 2
+renderName1 = "scatter_udf.flare"
+renderName2 = "scatter_udf.trail"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 155 255"
+finishColor = "0 255 0 0"
+startRadius = 0.05
+finishRadius = 0.05
+animateTime = 2.5
+
+[Trail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "0 255 155 255"
+finishColor = "0 255 0 0"
+startRadius = 0.05
+finishRadius = 0.05
+trailTime = 0.01
+segmentTime = 0.05 

@@ -1,0 +1,44 @@
+// ==================
+// LIGHT DAMAGE STATE
+// ==================
+
+[DmgVhcl1]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "DmgVhcl1.smokeemitter"
+renderName2 = "DmgVhcl1.sparkemitter"
+
+[SmokeEmitter]
+renderBase = "draw_twirl_trail"
+emitDelay = 0.05 // 0.05
+emitDelayVar = 0.03
+emitVelocity = "0.0 3.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitInherit = "0.2 0.2 0.2"
+emitLife = 2.0
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "0 0 0 100"//"0 0 0 32"
+finishColor = "0 0 0 0"
+startRadius = 0.85 //0.5
+finishRadius = 2.5 //2.0
+animateTime = 2.0
+rotationRate = 2.0
+
+[SparkEmitter]
+renderBase = "draw_twirl_trail"
+emitDelay = 0.02
+emitDelayVar = 0.01
+emitVelocity = "0.0 2.0 0.0"
+emitVariance = "5.0 5.0 5.0"
+emitInherit = "1.0 1.0 1.0"
+emitPosVariance = "1.0 1.0 1.0"
+emitLife = 1.0
+textureName = "spark.tga"
+textureBlend = "one one modulate"
+startColor = "255 200 0 255"
+finishColor = "255 0 0 0"
+startRadius = 0.1
+finishRadius = 0.05
+animateTime = 1.0
+rotationRate = 20.0

@@ -1,0 +1,26 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gHEAT1_c"
+ordName = "HEAT1_c"
+wpnName = "HE-AT SHELL"
+fireSound = "gmagg02.wav"
+wpnReticle = "gatstab"
+wpnCategory = "CANN"
+isAssault = 0
+flashName = "gHEAT1_c.flash"
+aiRange = 100
+
+[CannonClass]
+shotDelay = 0.8 // 2/sec
+shotAlternate = 0
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "ionflash.tga"
+textureBlend = "one one modulate"
+startColor = "255 80 0 255"
+finishColor = "216 50 0 100"
+startRadius = 8.0
+finishRadius = 0.8
+animateTime = 0.08
+geomName = "g_sflash.xsi"//sflash
