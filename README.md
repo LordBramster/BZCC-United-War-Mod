@@ -19,19 +19,13 @@
     <br>
 </p>
 
-**UNITED WAR** is a mod that brings a fresh experience to **BATTLEZONE: COMBAT COMMANDER**
-- New single-player campaign and new environments.
-- Three new factions (with unique build trees and play-styles).
-- New vehicles, buildings, and weapons.
-- New maps, including reimagined stock maps.
-- New scripted side-missions and gamemodes.
-- Better Interface and FX.
-- Better overhauled aspects of the stock game.
-- Many more to come!
+<h6 align="center">
+Following the events of BATTLEZONE 2, 
+the UNITED WAR story begins many years after the end of the HUMAN-SCION WAR.
+By 2097, the INTERNATIONAL SPACE DEFENSE FORCE was disbanded; an all new peacekeeping force known as the UNITED DEFENSE FORCE, safeguards the new SOLAR FRONTIER. 
+RACHAEL MANSON (UDF SCIENCE OFFICER), a descendant of a decorated veteran who served in the HUMAN-SCION WAR, plays a pivotal role in an important discovery within the ELYSIUM SYSTEM. ELYSIUM, a once abandoned planet during the BIOMETAL-WAR, emerges as a hub for recent xeno-biology and scientific inquiry in the ever-expanding SOLAR FRONTIER. Now industrialized by the RESEARCH-DRILLING-AND-SPACE-AUTHORITY, the ELYSIUM SYSTEM holds the possible key to humanity’s survival: an all new strain of BIOMETAL…
+</h6>
 
-Following the events of Battlezone 2, the **UNITED WAR** story begins many years after the end of the **HUMAN-SCION WAR**: 
-By 2097, the **INTERNATIONAL SPACE DEFENSE FORCE** was disbanded; an all new peacekeeping force known as the **UNITED DEFENSE FORCE**, safeguards the new **SOLAR FRONTIER**. 
-**RACHAEL MANSON (UDF SCIENCE OFFICER)**, a descendant of a decorated veteran who served in the **HUMAN-SCION WAR**, plays a pivotal role in an important discovery within the **ELYSIUM SYSTEM**. **ELYSIUM**, a once abandoned planet during the **BIOMETAL-WAR**, emerges as a hub for recent xeno-biology and scientific inquiry in the ever-expanding **SOLAR FRONTIER**. Now industrialized by the **RESEARCH-DRILLING-AND-SPACE-AUTHORITY**, the **ELYSIUM SYSTEM** holds the possible key to humanity’s survival: an all new strain of **BIOMETAL**…
 <br>
 
 <!-- INTRO -->
