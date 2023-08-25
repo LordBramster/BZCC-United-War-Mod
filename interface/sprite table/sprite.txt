@@ -1,0 +1,257 @@
+sprite_table
+
+# Name.............	File.......	U..	V..	W..	H..	TW.	TH.	Flags
+
+# Radar Circle Number Icons
+"circlenum.0"		colorize	0	17	 7	 7	128	128	0x40650000
+"circlenum.1"		colorize	8	17	 7	 7	128	128	0x40650000
+"circlenum.2"		colorize	16	17	 7	 7	128	128	0x40650000
+"circlenum.3"		colorize	24	17	 7	 7	128	128	0x40650000
+"circlenum.4"		colorize	32	17	 7	 7	128	128	0x40650000
+"circlenum.5"		colorize	40	17	 7	 7	128	128	0x40650000
+"circlenum.6"		colorize	48	17	 7	 7	128	128	0x40650000
+"circlenum.7"		colorize	56	17	 7	 7	128	128	0x40650000
+"circlenum.8"		colorize	64	17	 7	 7	128	128	0x40650000
+"circlenum.9"		colorize	72	17	 7	 7	128	128	0x40650000
+
+# Radar Square Number Icons
+"squarenum.0"		colorize	0	25	 7	 7	128	128	0x40650000
+"squarenum.1"		colorize	8	25	 7	 7	128	128	0x40650000
+"squarenum.2"		colorize	16	25	 7	 7	128	128	0x40650000
+"squarenum.3"		colorize	24	25	 7	 7	128	128	0x40650000
+"squarenum.4"		colorize	32	25	 7	 7	128	128	0x40650000
+"squarenum.5"		colorize	40	25	 7	 7	128	128	0x40650000
+"squarenum.6"		colorize	48	25	 7	 7	128	128	0x40650000
+"squarenum.7"		colorize	56	25	 7	 7	128	128	0x40650000
+"squarenum.8"		colorize	64	25	 7	 7	128	128	0x40650000
+"squarenum.9"		colorize	72	25	 7	 7	128	128	0x40650000
+
+# Ally Unit Number Icons
+"ally.8"			colorize	0	33	 9	 9	128	128	0x40650000
+"ally.9"			colorize	10	33	 9	 9	128	128	0x40650000
+"ally.10"			colorize	20	33	 9	 9	128	128	0x40650000
+
+# Big Numbers
+"bignum.0"			colorize	0	80	15	23	128	128	0x40650000
+"bignum.1"			colorize	16	80	15	23	128	128	0x40650000
+"bignum.2"			colorize	32	80	15	23	128	128	0x40650000
+"bignum.3"			colorize	48	80	15	23	128	128	0x40650000
+"bignum.4"			colorize	64	80	15	23	128	128	0x40650000
+"bignum.5"			colorize	0	104	15	23	128	128	0x40650000
+"bignum.6"			colorize	16	104	15	23	128	128	0x40650000
+"bignum.7"			colorize	32	104	15	23	128	128	0x40650000
+"bignum.8"			colorize	48	104	15	23	128	128	0x40650000
+"bignum.9"			colorize	64	104	15	23	128	128	0x40650000
+"bignum.."			colorize	80	123	4	4	128	128	0x40650000
+
+# Anti-Aliased Dots
+"dot.3"				colorize	124	79	3	3	128	128	0x40650000
+"dot.4"				colorize	123	83	4	4	128	128	0x40650000
+"dot.5"				colorize	122	88	5	5	128	128	0x40650000
+"dot.6"				colorize	121	94	6	6	128	128	0x40650000
+"dot.7"				colorize	120	101	7	7	128	128	0x40650000
+"dot.8"				colorize	119	109	8	8	128	128	0x40650000
+"dot.9"				colorize	118	118	9	9	128	128	0x40650000
+
+# Squares
+"square.1"			colorize	102	78	1	1	128	128	0x40650000
+"square.2"			colorize	102	78	2	2	128	128	0x40650000
+"square.3"			colorize	102	78	3	3	128	128	0x40650000
+"square.4"			colorize	102	78	4	4	128	128	0x40650000
+"square.5"			colorize	102	78	5	5	128	128	0x40650000
+"square.6"			colorize	102	78	6	6	128	128	0x40650000
+"square.7"			colorize	102	78	7	7	128	128	0x40650000
+"square.8"			colorize	102	78	8	8	128	128	0x40650000
+"square.9"			colorize	102	78	9	9	128	128	0x40650000
+
+# Crosses
+"cross.5"			colorize	122	73	5	5	128	128	0x40650000
+
+# Diamonds
+"diamond"			colorize	102	112	15	15	128	128	0x40650000
+
+# Corners
+"corner.0"			colorize	102	95	8	8	128	128	0x40650000
+"corner.1"			colorize	110	95	8	8	128	128	0x40650000
+"corner.2"			colorize	110	103	8	8	128	128	0x40650000
+"corner.3"			colorize	102	103	8	8	128	128	0x40650000
+
+# ISDF Cannon Reticles
+"gatstab"			ir_cann		0	0	32	32	128	128	0x40650000
+"gplstab"			ir_cann		32	0	32	32	128	128	0x40650000
+"gspstab"			ir_cann		64	0	32	32	128	128	0x40650000
+"gplasma"			ir_cann		96	0	32	32	128	128	0x40650000
+"gblast"			ir_cann		0	32	32	32	128	128	0x40650000
+"gmaggun.0"			ir_mag		0	0	64	32	128	128	0x40650000
+"gmaggun.1"			ir_mag		0	32	64	32	128	128	0x40650000
+"gmaggun.2"			ir_mag		0	64	64	32	128	128	0x40650000
+"gmaggun.3"			ir_mag		0	96	64	32	128	128	0x40650000
+"gmaggun.4"			ir_mag		64	0	64	32	128	128	0x40650000
+"gmaggun.5"			ir_mag		64	32	64	32	128	128	0x40650000
+"gmaggun.6"			ir_mag		64	64	64	32	128	128	0x40650000
+"gflashgn"			ir_cann		96	64	32	32	128	128	0x40650000
+
+# ISDF Gun Reticles
+"gminigun"			ir_cann		32	32	32	32	128	128	0x40650000
+"gchain"			ir_cann		64	32	32	32	128	128	0x40650000
+"glaser"			ir_cann		96	32	32	32	128	128	0x40650000
+"gpummel"			ir_cann		0	64	32	32	128	128	0x40650000
+
+# ISDF Hand/Personnel Reticles
+"grifle"			ir_cann		32	64	32	32	128	128	0x40650000
+"gbazooka"			ir_cann		64	64	32	32	128	128	0x40650000
+
+# ISDF Mine Reticles
+"gflare"			ir_cann		0	96	32	32	128	128	0x40650000
+"gmcurmin"			ir_cann		32	96	32	32	128	128	0x40650000
+"gmitsmin"			ir_cann		64	96	32	32	128	128	0x40650000
+"gproxmin"			ir_cann		96	96	32	32	128	128	0x40650000
+
+
+# Isdf Mortar Reticles
+"gmortar"			ir_mort		0	64	64	32	128	128	0x40650000
+"gmdmgun.0"			ir_mort		64	64	64	32	128	128	0x40650000
+"gmdmgun.1"			ir_mort		64	96	64	32	128	128	0x40650000
+"gsplint"			ir_mort		0	96	64	32	128	128	0x40650000
+
+# ISDF Rocket Reticles	
+"ghornet.0"			ir_horn		0	0	64	32	128	128	0x40650000
+"ghornet.1"			ir_horn		0	32	64	32	128	128	0x40650000
+"ghornet.2"			ir_horn		0	64	64	32	128	128	0x40650000
+"ghornet.3"			ir_horn		0	96	64	32	128	128	0x40650000
+"ghornet.A"			ir_horn		64	0	64	64	128	128	0x40650000
+"ghornet.B"			ir_horn		64	64	64	64	128	128	0x40650000
+"gshadow.0"			ir_shad		0	0	64	32	128	128	0x40650000
+"gshadow.1"			ir_shad		0	32	64	32	128	128	0x40650000
+"gshadow.2"			ir_shad		0	64	64	32	128	128	0x40650000	
+"gshadow.3"			ir_shad		0	96	64	32	128	128	0x40650000
+"gshadow.A"			ir_shad		64	0	64	64	128	128	0x40650000
+"gshadow.B"			ir_shad		64	64	64	64	128	128	0x40650000
+"gcomet.0"			ir_com		0	0	64	32	128	128	0x40650000
+"gcomet.1"			ir_com		0	32	64	32	128	128	0x40650000
+"gcomet.2"			ir_com		0	64	64	32	128	128	0x40650000
+"gcomet.3"			ir_com		0	96	64	32	128	128	0x40650000
+"gcomet.A"			ir_com		64	0	64	64	128	128	0x40650000
+"gcomet.B"			ir_com		64	64	64	64	128	128	0x40650000
+"gtaggun.0"			ir_rckt		0	64	64	32	128	128	0x40650000
+"gtaggun.1"			ir_rckt		0	96	64	32	128	128	0x40650000
+"gtaggun.2"			ir_rckt		64	0	64	32	128	128	0x40650000
+"gsalvo"			ir_rckt		0	32	64	32	128	128	0x40650000
+"gfafmsl"			ir_rckt		0	0	64	32	128	128	0x40650000
+"grktbomb"			ir_rckt		64	32	64	32	128	128	0x40650000
+"gsandbag"			ir_rckt		64	96	64	32	128	128	0x40650000
+
+# Isdf Special Reticles
+"gphantom.0"			ir_mort		0	0	32	32	128	128	0x40650000
+"gphantom.1"			ir_mort		32	0	32	32	128	128	0x40650000
+"gredfld.0"			ir_mort		64	0	32	32	128	128	0x40650000
+"gredfld.1"			ir_mort		96	0	32	32	128	128	0x40650000
+"gghost.0"			ir_mort		0	32	32	32	128	128	0x40650000
+"gghost.1"			ir_mort		32	32	32	32	128	128	0x40650000
+"gsitecam.0"			ir_mort		64	32	32	32	128	128	0x40650000
+"gsitecam.1"			ir_mort		96	32	32	32	128	128	0x40650000
+"gjax.0"			ir_rckt		64	64	32	32	128	128	0x40650000
+"gjax.1"			ir_rckt		96	64	32	32	128	128	0x40650000
+"gforce.0"			ir_mort		0	32	32	32	128	128	0x40650000
+"gforce.1"			ir_mort		32	32	32	32	128	128	0x40650000
+
+# Scion Cannon Reticles
+"garc_c"			sr_cann		0	0	32	32	128	128	0x40650000
+"garc_a"			sr_cann		32	0	32	32	128	128	0x40650000
+"gquill_c"			sr_cann		64	0	32	32	128	128	0x40650000
+"gfang_a"			sr_cann		96	0	32	32	128	128	0x40650000
+"gplas_c"			sr_cann		0	32	32	32	128	128	0x40650000
+"gplas_a"			sr_cann		32	32	32	32	128	128	0x40650000
+"gsonic_c"			sr_cann		64	32	32	32	128	128	0x40650000
+"gsonic_a"			sr_cann		96	32	32	32	128	128	0x40650000
+
+# Scion Gun Reticles
+"gion"				sr_cann		0	64	32	32	128	128	0x40650000
+"glock"				sr_cann		96	64	32	32	128	128	0x40650000
+
+# Scion Hand/Personnel Reticles
+"grifle_s"			sr_cann		32	64	32	32	128	128	0x40650000
+"gshotgun"			sr_cann		64	64	32	32	128	128	0x40650000
+
+# Scion Mine Reticles
+"gflare_s"			sr_cann		0	96	32	32	128	128	0x40650000
+"gbolt"				sr_cann		32	96	32	32	128	128	0x40650000
+"gseek"				sr_cann		64	96	32	32	128	128	0x40650000
+"gprox_s"			sr_cann		96	96	32	32	128	128	0x40650000
+
+# Scion Mortar Reticles
+"ghartil"			sr_mort		0	0	64	32	128	128	0x40650000
+"gresin"			sr_mort		0	32	64	32	128	128	0x40650000
+"ggas"				sr_mort		0	64	64	32	128	128	0x40650000
+"glockm"			sr_mort		0	96	64	32	128	128	0x40650000
+
+# Scion Rocket Reticles	
+"gmlock_c.0"			sr_rcksp	0	0	64	32	128	128	0x40650000
+"gmlock_c.1"			sr_rcksp	0	32	64	32	128	128	0x40650000
+"gmlock_c.2"			sr_rcksp	0	64	64	32	128	128	0x40650000
+"gmlock_c.3"			sr_rcksp	0	96	64	32	128	128	0x40650000
+"gmlock_a"			sr_rcksp	64	0	64	32	128	128	0x40650000
+"gsting_a"			sr_rcksp	64	32	64	32	128	128	0x40650000
+"gsting_c"			sr_rcksp	64	64	64	32	128	128	0x40650000
+
+# Scion Special Reticles	
+"gblink.0"			sr_rcksp	64	96	32	32	128	128	0x40650000
+"gblink.1"			sr_rcksp	96	96	32	32	128	128	0x40650000
+"gstatic.0"			sr_mort		64	0	32	32	128	128	0x40650000
+"gstatic.1"			sr_mort		96	0	32	32	128	128	0x40650000
+
+# Blink Ground Splash
+"blnkspot.0"			blnkspot		0	0	128	128	128	128	0x40650000
+
+# Miscellaneous Reticles 2
+"dot"				ir_cann		115	64	8	8	128	128	0x40650000
+"sight"				ir_cann		115	73	5	5	128	128	0x40650000
+
+# Square Reticle
+"ground.0"			square		0	0	64	64	64	64	0x40650000
+
+# Smoke Puff
+"smoke.0"			smoke		0	0	128	128	128	128	0x40650000
+
+# Flame Puff
+"flame.0"			flame		0	0	128	128	128	128	0x40220000
+
+# Ground Splash
+"splash.0"			splash		0	0	128	128	128	128	0x40650000
+
+# Lens Flare
+"flare.0"			flare		0	0	128	128	128	128	0x40220000
+
+# Plasma Ball
+"plasma.0"			plasma		0	0	128	128	128	128	0x40220000
+
+# Spark Particle
+"particle.0"		particle	0	0	128	128	128	128	0x40220000
+
+# Shadow Texture
+"shadow.0"			shadow		0	0	128	128	128	128	0x40650000
+
+# Up Triangles
+"up.11"				colorize	94	99	7	11	128	128	0x40650000
+"up.10"				colorize	94	99	7	10	128	128	0x40650000
+"up.9"				colorize	94	99	7	9	128	128	0x40650000
+"up.8"				colorize	94	99	7	8	128	128	0x40650000
+"up.7"				colorize	95	99	5	7	128	128	0x40650000
+"up.6"				colorize	95	99	5	6	128	128	0x40650000
+"up.5"				colorize	95	99	5	5	128	128	0x40650000
+"up.4"				colorize	96	99	3	4	128	128	0x40650000
+"up.3"				colorize	96	99	3	3	128	128	0x40650000
+
+# Right Triangles
+"right.11"			colorize	83	103	11	7	128	128	0x40650000
+"right.10"			colorize	84	103	10	7	128	128	0x40650000
+"right.9"			colorize	85	103	9	7	128	128	0x40650000
+"right.8"			colorize	86	103	8	7	128	128	0x40650000
+"right.7"			colorize	87	104	7	5	128	128	0x40650000
+"right.6"			colorize	88	104	6	5	128	128	0x40650000
+"right.5"			colorize	89	104	5	5	128	128	0x40650000
+"right.4"			colorize	90	105	4	3	128	128	0x40650000
+"right.3"			colorize	91	105	3	3	128	128	0x40650000
+
+# Font Characters
+@include "bzone.lst"
