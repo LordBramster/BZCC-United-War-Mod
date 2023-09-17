@@ -19,11 +19,9 @@
     <br>
 </p>
 
+
 <h6 align="center">
-Following the events of BATTLEZONE 2, 
-the UNITED WAR story begins many years after the end of the HUMAN-SCION WAR.
-By 2097, the INTERNATIONAL SPACE DEFENSE FORCE was disbanded; an all new peacekeeping force known as the UNITED DEFENSE FORCE, safeguards the new SOLAR FRONTIER. 
-RACHAEL MANSON (UDF SCIENCE OFFICER), a descendant of a decorated veteran who served in the HUMAN-SCION WAR, plays a pivotal role in an important discovery within the ELYSIUM SYSTEM. ELYSIUM, a once abandoned planet during the BIOMETAL-WAR, emerges as a hub for recent xeno-biology and scientific inquiry in the ever-expanding SOLAR FRONTIER. Now industrialized by the RESEARCH-DRILLING-AND-SPACE-AUTHORITY, the ELYSIUM SYSTEM holds the possible key to humanity’s survival: an all new strain of BIOMETAL…
+Following the events of BATTLEZONE 2, the UNITED WAR story begins many years after the end of the Human-Scion War. By 2097, the INTERNATIONAL SPACE DEFENSE FORCE was disbanded; an all new peacekeeping force known as the UNITED DEFENSE FORCE, safeguards the new "solar frontier". RACHAEL MANSON (UDF Science Officer), a descendant of a decorated veteran who served in the Human-Scion War, plays a pivotal role in an important discovery within the Elysium System. Elysium, a once abandoned planet during the Biometal-War, emerges as a hub for recent xeno-biology and scientific inquiry in the ever-expanding "solar frontier". Now industrialized by the RESEARCH-DRILLING-AND-SPACE-AUTHORITY, the Elysium System holds the possible key to humanity’s survival: an all new strain of Biometal…
 </h6>
 
 <br>
