@@ -2,13 +2,18 @@
 
 <!-- DESCRIPTION -->
 <p align="center">
-  <img width="65%" src="git/img/United_War_Mod_Banner_2.png">
-  <br><br>
-  <img width="100%" src="git/img/BZCC_Title_Bar_s.png">
-  <!--<h3 align="center">UNITED WAR</h3>-->
+  <img width="100%" src="git/img/United_War_Stripes_Title_2.png">
+  <br>
+  <!--<img width="100%" src="git/img/BZCC_Title_Bar_s.png">-->
 </p>
-<h6 align="center">This mod is a work-in-progress. Contents of this repository are subject to change.</h6>
+
+<h6 align="center">This mod is still a work-in-progress. Contents of this repository are subject to change.</h6>
 <br>
+
+<!-- WORKSHOP -->
+<p align="center">
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Find%20It%20On%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+</p>
 
 <!-- STATS -->
 <p align="center">
@@ -19,22 +24,9 @@
     <br>
 </p>
 
-
-<h6 align="center">
-Following the events of BATTLEZONE 2, the UNITED WAR story begins many years after the end of the Human-Scion War. By 2097, the INTERNATIONAL SPACE DEFENSE FORCE was disbanded; an all new peacekeeping force known as the UNITED DEFENSE FORCE, safeguards the new "solar frontier". RACHAEL MANSON (UDF Science Officer), a descendant of a decorated veteran who served in the Human-Scion War, plays a pivotal role in an important discovery within the Elysium System. Elysium, a once abandoned planet during the Biometal-War, emerges as a hub for recent xeno-biology and scientific inquiry in the ever-expanding "solar frontier". Now industrialized by the RESEARCH-DRILLING-AND-SPACE-AUTHORITY, the Elysium System holds the possible key to humanity’s survival: an all new strain of Biometal…
-</h6>
+> Following the events of BATTLEZONE 2, the UNITED WAR story begins many years after the end of the Human-Scion War. By 2097, the INTERNATIONAL SPACE DEFENSE FORCE was disbanded; an all new peacekeeping force known as the UNITED DEFENSE FORCE, safeguards the new "solar frontier". RACHAEL MANSON (UDF Science Officer), a descendant of a decorated veteran who served in the Human-Scion War, plays a pivotal role in an important discovery within the Elysium System. Elysium, a once abandoned planet during the Biometal-War, emerges as a hub for recent xeno-biology and scientific inquiry in the ever-expanding "solar frontier". Now industrialized by the RESEARCH-DRILLING-AND-SPACE-AUTHORITY, the Elysium System holds the possible key to humanity’s survival: an all new strain of Biometal…
 
 <br>
-
-<!-- INTRO -->
-<p align="center">
-  <img width="20%" src="git/img/UDF-Vector-square.png">
-  <br><br>
-  <a href="https://steamcommunity.com/workshop/browse/?appid=624970&browsesort=trend&section=readytouseitems"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Find%20It%20On%20The%20Steam%20Workshop%20-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
-  <br>
-  <br>
-  <!--<img width="40%" src="git/img/United_War_Transparent_Logo_005.png">-->
-</p>
 
 <!-- CONTRIBUTION -->
 | Contributors | Focus |
@@ -48,7 +40,37 @@ Following the events of BATTLEZONE 2, the UNITED WAR story begins many years aft
 | `GrizzlyOne95` | Weapons and ODFs |
 | `General Black Dragon` | Interfaces and FX |
 
-| Playtesters | _ |
+| Special Thanks | To |
+| --- | --- |
+| `BZSphinx` | 3D Model Help |
+| `BlueBanana` | Heightmapping Help |
+| `Nielk1` | Scripting/Code Help |
+
+<br>
+
+<!-- STRIPES -->
+<p align="center">
+  <img width="100%" src="git/img/United_War_Stripes_Title_Playtest.png">
+</p>
+
+```
+Do not use the mod assets as part of your creations or re-upload any creations from this mod.
+```
+
+<h2>Instructions</h2>
+
+- Remove any **config** mods.
+- Remove **addon** mods.
+- Activate `United War Public Playtest` in the **config** selection menu.
+- Comment problems or issues you find (or let a member of the DEV team know).
+
+<br>
+
+<h2>Playtest Contributions</h2>
+
+Thanks to all of those who played!
+
+| Players | _ |
 | --- | --- |
 | `GrizzlyOne95` | _ |
 | `Lamper` | _ |
@@ -59,18 +81,11 @@ Following the events of BATTLEZONE 2, the UNITED WAR story begins many years aft
 | `Trosper3` | _ |
 | `BlackDog` | _ |
 
-| Special Thanks | To |
-| --- | --- |
-| `BZSphinx` | 3D Model Help |
-| `BlueBanana` | Heightmapping Help |
-| `Nielk1` | Scripting/Code Help |
-
-<hr>
 <br>
 
 <!-- STRIPES -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_003.png">
+  <img width="100%" src="git/img/United_War_Stripes_Title_Info.png">
 </p>
 
 <!-- YOUTUBE -->
@@ -88,8 +103,17 @@ Following the events of BATTLEZONE 2, the UNITED WAR story begins many years aft
 
 <!-- STRIPES -->
 <p align="center">
+  <img width="100%" src="git/img/United_War_Stripes_Title_Feat.png">
+</p>
+
+- Insert!
+
+<!-- STRIPES -->
+<!--
+<p align="center">
   <img width="100%" src="git/img/United_War_Stripes_003.png">
 </p>
+-->
 
 <!--
 https://github.com/chroline/well_app#readme\
