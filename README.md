@@ -59,16 +59,15 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 
 <h2>Instructions</h2>
 
-- Remove any **config** mods.
-- Remove **addon** mods.
+- Subscribe to the `public playtest` version on the Steam Workshop   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20Here-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+- Disable any active **config** mods.
+- Disable any active **addon** mods.
 - Activate `United War Public Playtest` in the **config** selection menu.
 - Comment problems or issues you find (or let a member of the DEV team know).
 
-<br>
+<h2>Playtesting Contributions</h2>
 
-<h2>Playtest Contributions</h2>
-
-Thanks to all of those who played!
+<h6>Thanks to all of those who played!</h6>
 
 | Players | _ |
 | --- | --- |
