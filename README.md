@@ -39,7 +39,7 @@ RACHAEL MANSON (UDF SCIENCE OFFICER), a descendant of a decorated veteran who se
 </p>
 
 <!-- CONTRIBUTION -->
-| Contributors | Development |
+| Contributors | Focus |
 | --- | --- |
 | `Cygnus-X1` | 3D Artist |
 | `Katherlyn` | 3D Models |
@@ -47,15 +47,25 @@ RACHAEL MANSON (UDF SCIENCE OFFICER), a descendant of a decorated veteran who se
 | `Shock` | Art and Promotional Content |
 | `Feign` | Art and Promotional Content |
 | `Jack Forsythe` | Weapons and ODFs |
-| `GrizzlyOne` | Weapons and ODFs |
+| `GrizzlyOne95` | Weapons and ODFs |
 | `General Black Dragon` | Interfaces and FX |
+
+| Playtesters | _ |
+| --- | --- |
+| `GrizzlyOne95` | _ |
+| `Lamper` | _ |
+| `BlueBanana` | _ |
+| `VTrider` | _ |
+| `HVivify` | _ |
+| `Vacuum34` | _ |
+| `Trosper3` | _ |
+| `BlackDog` | _ |
 
 | Special Thanks | To |
 | --- | --- |
-| `BlackDog` | Playtesting |
-| `GrizzlyOne` | Playtesting |
-| `BlueBanana` | Heightmapping |
-| `Nielk1` | Scripting/Code |
+| `BZSphinx` | 3D Model Help |
+| `BlueBanana` | Heightmapping Help |
+| `Nielk1` | Scripting/Code Help |
 
 <hr>
 <br>
