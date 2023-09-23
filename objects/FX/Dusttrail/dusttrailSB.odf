@@ -1,0 +1,24 @@
+[dusttrail]
+renderBase = "draw_emit"
+emitName = "dusttrail.dustemit"
+emitDelay = 0.05
+emitDelayVar = 0.02
+emitVelocity = "0.0 4.0 0.0"
+emitVariance = "10.0 0.0 5.0"
+emitInherit = "0.5 0.5 0.5"
+emitPosVariance = "5.0 0.0 0.0"
+
+[dustemit]
+simulateBase = "sim_dust"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 64"
+finishColor = "255 255 255 0"
+useTerrainColor = 0.9
+startRadius = 0.5
+finishRadius = 7.0
+animateTime = 0.5
+rotationRate = 2.0
+maxCount = 512
