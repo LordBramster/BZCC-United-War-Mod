@@ -1,0 +1,23 @@
+[GameObjectClass]
+classLabel = "seeker"
+geometryName = "um_Tick01_B_1.fbx"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 100
+unitName = "Imploder Drone"
+heatSignature = 20.0
+imageSignature = 20.0
+radarSignature = 20.0
+canCollide = 1
+//collisionRadius = 1.0
+
+[MineClass]
+lifeSpan = 20
+xplBlast = "xthrmplxpl" // "xgadmine1"
+
+[SeekerClass]
+searchRange = 100.0
+floatVeloc = 25.0
+setAltitude = 2.65
+

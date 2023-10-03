@@ -1,0 +1,53 @@
+[GameObjectClass]
+geometryName = "NAV_beacon_002.fbx"
+classLabel = "beacon"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 0
+maxAmmo = 0
+unitName = "NAV Marker"
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+ScanTeamLimit = 2 // 0 = all teams, 1 = same team only, 2 = allies only, 3 = no one
+CanBeIdleVictim = false
+
+effectHard1 = "hp_emit_1"
+effectName1 = "ibnav.green"
+
+
+[green]
+renderBase = "draw_sprite"
+textureName = "nav_marker_001B.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 400"//"255 255 255 255"
+finishColor = "0 255 0 400"//"255 255 255 255"
+startRadius = 3.5//5.0//0.9
+finishRadius = 3.5//5.0//0.9
+
+[red]
+renderBase = "draw_sprite"
+textureName = "nav_marker_001B.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 400"//"255 255 255 255"
+finishColor = "255 0 0 400"//"255 255 255 255"
+startRadius = 3.5//5.0//0.9
+finishRadius = 3.5//5.0//0.9
+
+[white]
+renderBase = "draw_sprite"
+textureName = "nav_marker_001B.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 400"
+finishColor = "255 255 255 400"
+startRadius = 3.5//5.0//0.9
+finishRadius = 3.5//5.0//0.9
+
+[yellow]
+renderBase = "draw_sprite"
+textureName = "nav_marker_001B.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 400"
+finishColor = "255 255 0 400"
+startRadius = 3.5//5.0//0.9
+finishRadius = 3.5//5.0//0.9
