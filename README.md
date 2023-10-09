@@ -17,14 +17,18 @@
 
 <!-- STATS -->
 <p align="center">
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img src='https://img.shields.io/badge/%20N/A-grey?style=for-the-badge&logo=steam&logoColor=white&color=222f40&label=Views'></a>
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img src='https://img.shields.io/badge/%20N/A-grey?style=for-the-badge&logo=steam&logoColor=white&color=222f40&label=Downloads'></a>
+    <!--
     <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/1534710658?color=222f40&label=Views&style=for-the-badge&logo=steam&logoColor=white&labelColor=23FDD835"></a>
     <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/1534710658?color=222f40&label=Downloads&style=for-the-badge&logo=steam&logoColor=white&labelColor=23FDD835"></a>
-    <!--<a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge&&logo=git&labelColor=222f40'>-->
-  <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/badge/%20unreleased-grey?style=for-the-badge&logo=git&logoColor=white&color=f55200&label=Version'>
+    <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge&&logo=git&labelColor=222f40'>
+    -->
+    <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/badge/%20unreleased-grey?style=for-the-badge&logo=git&logoColor=white&color=f55200&label=Version'>
     <br>
 </p>
 
-> Following the events of BATTLEZONE 2, the UNITED WAR story begins many years after the end of the Human-Scion War. By 2097, the INTERNATIONAL SPACE DEFENSE FORCE was disbanded; an all new peacekeeping force known as the UNITED DEFENSE FORCE, safeguards the new "solar frontier". RACHAEL MANSON (UDF Science Officer), a descendant of a decorated veteran who served in the Human-Scion War, plays a pivotal role in an important discovery within the Elysium System. Elysium, a once abandoned planet during the Biometal-War, emerges as a hub for recent xeno-biology and scientific inquiry in the ever-expanding "solar frontier". Now industrialized by the RESEARCH-DRILLING-AND-SPACE-AUTHORITY, the Elysium System holds the possible key to humanity’s survival: an all new strain of Biometal…
+> Following the events of BATTLEZONE 2, the UNITED WAR story begins many years after the end of the Human-Scion War. By 2097, the INTERNATIONAL SPACE DEFENSE FORCE was disbanded; an all new peacekeeping force known as the UNITED DEFENSE FORCE, safeguards the new "solar frontier". RACHAEL MANSON (Science Officer), a descendant of a decorated veteran who served in the Human-Scion War, plays a pivotal role in an important discovery within the Elysium System. Elysium, a once abandoned planet during the Biometal-War, emerges as a hub for recent xeno-biology and scientific inquiry in the ever-expanding "solar frontier". Now industrialized by the RESEARCH-DRILLING-AND-SPACE-AUTHORITY, the Elysium System holds the possible key to humanity’s survival: an all new strain of Biometal…
 
 <br>
 
