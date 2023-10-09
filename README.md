@@ -35,20 +35,27 @@
 <!-- CONTRIBUTION -->
 | Contributors | Focus |
 | --- | --- |
-| `Cygnus-X1` | 3D Artist |
+| `Cygnus-X1` | 3D Models, Textures |
 | `Katherlyn` | 3D Models |
-| `F9Bomber` | Programmer |
-| `Shock` | Art and Promotional Content |
-| `Feign` | Art and Promotional Content |
-| `Jack Forsythe` | Weapons and ODFs |
-| `GrizzlyOne95` | Weapons and ODFs |
-| `General Black Dragon` | Interfaces and FX |
+| `F9Bomber` | Programming |
+| `Shock` | Art, Promotional Content |
+| `Feign` | Art, Promotional Content |
+| `Jack Forsythe` | Weapons, ODFs |
+| `GrizzlyOne95` | Weapons, ODFs |
+| `General Black Dragon` | UI/Interfaces, FX |
 
+<!-- SPECIAL THANKS -->
 | Special Thanks | To |
 | --- | --- |
-| `BZSphinx` | 3D Model Help |
-| `BlueBanana` | Heightmapping Help |
-| `Nielk1` | Scripting/Code Help |
+| `JJ173` | Scripting/Programming Help |
+| `BZSphinx` | 3D Modelling Help |
+| `BlueBanana` | Heightmapping Help, Playtesting |
+| `VTrider` | Playtesting |
+| `Lamper` | Playtesting |
+| `HVivify` | Playtesting |
+| `Vacuum34` | Playtesting |
+| `Trosper3` | Playtesting |
+
 
 <br>
 
