@@ -37,7 +37,8 @@
 | --- | --- |
 | `Cygnus-X1` | 3D Models, Textures |
 | `Katherlyn` | 3D Models |
-| `F9Bomber` | Programming |
+| `F9Bomber` | Scripting/Programming |
+| `JJ173` | Scripting/Programming |
 | `Shock` | Art, Promotional Content |
 | `Feign` | Art, Promotional Content |
 | `Jack Forsythe` | Weapons, ODFs |
@@ -47,15 +48,14 @@
 <!-- SPECIAL THANKS -->
 | Special Thanks | To |
 | --- | --- |
-| `JJ173` | Scripting/Programming Help |
 | `BZSphinx` | 3D Modelling Help |
-| `BlueBanana` | Heightmapping Help, Playtesting |
+| `BlueBanana` | Playtesting, Heightmapping Help |
 | `VTrider` | Playtesting |
 | `Lamper` | Playtesting |
 | `HVivify` | Playtesting |
 | `Vacuum34` | Playtesting |
 | `Trosper3` | Playtesting |
-
+| `BlackDog` | Playtesting |
 
 <br>
 
@@ -74,22 +74,9 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 - Disable any active **config** mods.
 - Disable any active **addon** mods.
 - Activate `United War Public Playtest` in the **config** selection menu.
-- Comment problems or issues you find (or let a member of the DEV team know).
-
-<h2>Playtesting Contributions</h2>
+- Play!
 
 <h6>Thanks to all of those who played!</h6>
-
-| Players | _ |
-| --- | --- |
-| `GrizzlyOne95` | _ |
-| `Lamper` | _ |
-| `BlueBanana` | _ |
-| `VTrider` | _ |
-| `HVivify` | _ |
-| `Vacuum34` | _ |
-| `Trosper3` | _ |
-| `BlackDog` | _ |
 
 <br>
 
