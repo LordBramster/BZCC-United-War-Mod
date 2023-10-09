@@ -19,12 +19,12 @@
 <p align="center">
     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img src='https://img.shields.io/badge/%20N/A-grey?style=for-the-badge&logo=steam&logoColor=white&color=222f40&label=Views'></a>
     <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img src='https://img.shields.io/badge/%20N/A-grey?style=for-the-badge&logo=steam&logoColor=white&color=222f40&label=Downloads'></a>
+    <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/badge/%20unreleased-grey?style=for-the-badge&logo=git&logoColor=white&color=eb6f02&label=Version'>
     <!--
     <a href="#"><img alt="Steam Views" src="https://img.shields.io/steam/views/1534710658?color=222f40&label=Views&style=for-the-badge&logo=steam&logoColor=white&labelColor=23FDD835"></a>
     <a href="#"><img alt="Steam Downloads" src="https://img.shields.io/steam/downloads/1534710658?color=222f40&label=Downloads&style=for-the-badge&logo=steam&logoColor=white&labelColor=23FDD835"></a>
     <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/github/v/release/LordBramster/BZCC-United-War-Mod?color=%23FDD835&label=version&style=for-the-badge&&logo=git&labelColor=222f40'>
     -->
-    <a href='https://github.com/LordBramster/BZCC-United-War-Mod/releases'><img src='https://img.shields.io/badge/%20unreleased-grey?style=for-the-badge&logo=git&logoColor=white&color=f55200&label=Version'>
     <br>
 </p>
 
