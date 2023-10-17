@@ -1,0 +1,27 @@
+[WeaponClass]
+classLabel = "machinegun"
+
+ordName = "osbullet"
+wpnName = "Orbital Striker"
+fireSound = "gmini00.wav"
+wpnReticle = "grifle"
+wpnCategory = "HAND"
+isAssault = 0
+isFlying = 0
+altName = "gorbital"
+flashName = "igsnip_c.flash"
+
+[CannonClass]
+shotDelay = 0.03
+shotVariance = 0.01
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash.tga"
+textureBlend = "one one modulate"
+startColor = "0 0 255 255"
+finishColor = "255 255 255 255"
+startRadius = 1.0
+finishRadius = 1
+animateTime = 0.1
+geomName = "g_sflash.xsi"

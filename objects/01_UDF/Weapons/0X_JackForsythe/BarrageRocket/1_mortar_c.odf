@@ -1,0 +1,93 @@
+[OrdnanceClass]
+classLabel = "grenade"
+
+shotGeometry = "ioartl00.fbx"
+shotSound = "baz03.wav"
+
+xplGround = "xmortgnd"
+xplVehicle = "xmortxpl"
+xplBuilding = "xmortxpl"
+
+renderName = "mortar_c.render"
+
+ammoCost = 50
+lifeSpan = 1e30
+shotSpeed = 50.0
+
+damageValue(N) = 400 // none
+damageValue(L) = 350 // light
+damageValue(H) = 300 // heavy
+
+damageValue(S) = 350 // standard
+damageValue(D) = 300 // deflection
+damageValue(A) = 400 // absorbtion
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 5
+renderName1 = "mortar_c.hottrail"
+renderName2 = "mortar_c.sparkle"
+renderName3 = "mortar_c.smoketrail"
+renderName4 = "mortar_c.hottrail"
+renderName5 = "mortar_c.glow"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 0.5
+finishRadius = 0.5
+
+[glow]
+renderBase = "draw_sprite"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 144 40 255"
+finishColor = "255 144 40 255"
+startRadius = 1.0
+finishRadius = 1.0
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "spark.tga" // flame
+textureblend = "one one modulate"
+startColor = "255 140 10 255"
+finishColor = "255 60 0 0"
+startRadius = 0.1
+finishRadius = 0.1
+animateTime = 0.5
+emitDelay = 0.02 //0.005
+emitVariance = "3.0 3.0 3.0"
+emitLife = 0.5
+
+[HotTrail]
+renderBase = "draw_trail"
+textureName = "firetrail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.25 //0.2
+startColor = "255 255 255 255"
+finishColor = "220 255 255 0"
+startRadius = 0.30
+finishRadius = 0.05
+segmentLength = 2.4 //3.0
+segmentTime = 0.1
+animateTime = 0.1
+segmentVariance = "3.0 3.0 3.0"
+
+[SmokeTrail]
+renderBase = "draw_twirl_trail"
+textureName = "smoke2.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "36 34 32 60"
+finishColor = "46 44 42 0"
+startRadius = 0.4
+finishRadius = 2.7
+rotationRate = 6.0
+animateTime = 1.8
+emitDelay = 0.01
+emitVariance = "3.7 3.7 3.7"
+emitInherit = "0.3 0.3 0.3"
+emitLife = 1.8
+BottomInteractsWithTerrain = false

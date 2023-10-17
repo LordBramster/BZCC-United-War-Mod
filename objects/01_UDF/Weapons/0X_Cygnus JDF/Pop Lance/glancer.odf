@@ -1,0 +1,16 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "lanceshell"
+wpnName = "Lance"
+fireSound = "searcher01.wav"
+wpnReticle = "glockm"
+wpnLadder = "gpopgun.L0"
+wpnCategory = "MORT"
+aiRange = 250
+
+[CannonClass]
+shotDelay = 3.0
+shotPitch = 1.0
+salvoCount = 6
+salvoDelay = 0.2
+shotVariance = 1.0

@@ -1,0 +1,82 @@
+[OrdnanceClass]
+classLabel = "thermalmissile"
+
+shotGeometry = NULL
+// shotRadius = 0.5
+
+xplGround = "xstabgnd_c"
+xplVehicle = "xstabgnd_c"
+xplBuilding = "xstabcar_c"
+
+ammoCost = 1.5
+lifeSpan = 0.55 // 0.7
+shotSpeed = 200.0
+
+damageValue(N) = 50 // none
+damageValue(L) = 20 // light
+damageValue(H) = 15 // heavy
+
+damageValue(S) = 25 // standard
+damageValue(D) = 40 // deflection
+damageValue(A) = 15 // absorbtion
+
+renderName = "PlasMburs1.render"
+
+[MissileClass]
+omegaTurn = 1.3
+
+[ThermalMissileClass]
+coneAngle = 0.5
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "PlasMburs1.flare1"
+renderName2 = "PlasMburs1.core"
+renderName3 = "PlasMburs1.light"
+
+[Flare1]
+renderBase = "draw_twirl_trail"
+textureName = "plasmahitcore2.tga"
+textureBlend = "one one modulate"
+startColor = "55 180 240 255" // "255 255 255 255"
+finishColor = "0 0 240 220" // "0 0 255 255"
+startRadius = 0.2 // .5
+finishRadius = 0.01 // .02
+rotationRate = 12.0
+animateTime = 0.02
+emitDelay = 0.0005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "3.0 3.0 3.0"
+emitLife = 0.005
+
+[Core]
+renderBase = "draw_sprite"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "55 180 240 255"
+finishColor = "0 0 240 220" // "255 145 10 120"
+startRadius = 0.9 // 1.2
+finishRadius = 0.9   // 1.2
+
+[Light]
+renderBase = "draw_light"
+startColor = "55 180 255 855"
+finishColor = "55 180 255 0"
+startRadius = 3.5 // 5.0
+finishRadius = 2.0 // 5.0
+lensFlare = 0
+
+//renderBase = "draw_twirl_trail"
+//textureName = "plasma.tga"
+//textureBlend = "one one modulate"
+//startColor = "255 60 0 255" // "255 63 55 255"
+//finishColor = "255  0 0" // "255 63 55 255"
+//startRadius = 0.2
+//finishRadius = 0.001
+//animateTime = 0.05
+//rotationRate = 0.05
+//emitDelay = 0.008
+//emitVelocity = "0.2 0.2 0.0"
+//emitVariance = "20.0 20.0 0.0"
+//emitLife = 0.05

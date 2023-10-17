@@ -1,0 +1,15 @@
+[GameObjectClass]
+baseName = "apchaffs"
+classLabel = "apspecial"
+scrapCost = 20
+
+unitName = "Countermeasures"
+
+imageSignature = 300//1.0f
+radarSignature = 0.1//1.0f
+heatSignature = 300//1.0f
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "g_chaffs"

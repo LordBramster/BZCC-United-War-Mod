@@ -1,0 +1,33 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX = -2048.0
+MinZ = -2048.0
+Width = 4096.0
+Depth = 4096.0
+Height = 165
+Tile = 1
+Color = "255 255 255 255"
+
+[NormalView]
+DiffuseColor = "255 255 255"
+SpecularColor = "10 10 10"
+SpecularPower = 1024.0
+
+[World]
+MusicTrack1=2
+MusicTrack2=3
+MusicTrack3=4
+MusicTrack4=5
+
+[Texture]
+TileTexture1 = "sb_finesg1_d.tga"
+TileTexture2 = "DesertSandWash01.tga"
+TileTexture3 = "sb_finesg1_d.tga"
+TileTexture4 = "DesertSandRough01.tga"
+TileTexture5 = "DesertRock01.tga"
+TileTexture6 = "DesertSandDebris01.tga"
+TileTexture7 = "DesertSandSoil01.tga"
+TileTexture8 = "DesertSandWavy01.tga"
+TileTexture9 = "DesertSandSoil02.tga"
+TileTexture10 = "scr_crys01_d.tga"

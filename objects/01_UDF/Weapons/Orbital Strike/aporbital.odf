@@ -1,0 +1,15 @@
+[GameObjectClass]
+baseName = "aporbital"
+classLabel = "appilot"
+scrapCost = 100
+
+unitName = "Orbital Strike Designator"
+
+imageSignature = 1//1.0f
+radarSignature = 1//1.0f
+heatSignature = 1//1.0f
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gorbital"

@@ -1,0 +1,19 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gPlasMburs1"
+ordName = "plasMBurs1"
+wpnName = "Plasma Burst"
+fireSound = "plasMBurs2Fa.wav"
+// fireSound = "plasMBurs1.wav"
+wpnReticle = "gchain"
+wpnCategory = "GUN"
+isAssault = 0
+aiRange = 150
+
+[CannonClass]
+shotDelay = 0.9
+salvoCount = 4
+salvoDelay = 0.065
+shotVariance = 0.03
+shotAlternate = false
+// SoundPerShot = 1

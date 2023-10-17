@@ -1,0 +1,92 @@
+[GameObjectClass]
+baseName = "ibfact"
+geometryName = "ibfact00.fbx"
+animCount = 1
+animName1 = "loop"
+animFile1 = "ibfact00.fbx"
+RunAnimation = "loop"
+RunAnimIsLooped = true
+classLabel = "factory"
+scrapCost = 55
+scrapValue = 15
+maxHealth = 6000
+maxAmmo = 0
+unitName = "Adv. Factory"
+aiName = "BuildingProcess"
+aiName2 = "BuildingProcess"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+armorClass = H
+AllowUndergroundSpawn = 1
+
+/////// #4 HOTKEY ADDON ///////
+categoryTypeOverride = 4
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibpgen"
+requireText1 = "Build Power"
+
+/////// PROVIDES ///////////////////
+provideCount = 2
+provideName1 = "ibfact"
+provideName2 = "VIRTUAL_CLASS_FACTORY"
+
+////////////////////////////////////
+collisionRadius = 4.0
+
+///////// LIGHTS & EFFECTS /////////
+lightHard1 = "hp_light_3"
+lightName1 = "o_red_nf"
+lightHard2 = "hp_light_4"
+lightName2 = "o_lblue_nf" 
+
+effectHard1 = "hp_emit_0"
+effectName1 = "emit_blueblink"
+effectFlags1 = "447" //447 powered  479 unpowered
+
+[PoweredBuildingClass]
+detectRange = 100
+panelIcon = "icon_base_fact.tga"
+
+[BuildingClass]
+tunnelCount = 1
+tunnel01X0 = 3
+tunnel01Z0 = 3
+tunnel01DX = 2
+tunnel01DZ = 4
+tunnel01Edge = "wwtw"
+
+soundAmbient = "ibfact00.wav"
+
+[FactoryClass]
+soundBuild = "ibrecy02.wav"
+soundFinish = "iapc04.wav"
+reloadMsg = "ivrecy12.wav"
+rescueMsg = "ivrecy13.wav"
+
+buildItem1 = "ivmbike"
+buildItem2 = "ivmisl"
+buildItem3 = "ivtank"
+buildItem4 = "ivrckt"
+buildItem5 = "ivatank"
+buildItem6 = "ivwalk"
+buildItem7 = "ivapc"
+buildItem8 = "ivbomb"
+
+
+
+//
+// SPARKER FX
+//
+BuildSparkConfig = "sparker_udf"
+LineStartColor = "0 255 100 255"
+LineFinishColor = "0 255 0 0"
+BeamColor = "0 255 100 255"
+
+[Lod1]
+//geometryName = "ibfactL1.fbx" ;geometry for lod1
+//distance = 80
+//dontShiftLOD = 1

@@ -1,0 +1,50 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = NULL
+xplGround = "xbulgnd"
+xplVehicle = "xstrike"
+xplBuilding = "xstrike"
+
+renderName = "laser_c.render"
+
+ammoCost = 1
+lifeSpan = 0.5 // 175m
+shotSpeed = 400.0
+
+damageValue(N) = 0 // none
+damageValue(L) = 0 // light
+damageValue(H) = 0 // heavy
+
+damageValue(S) = 0 // standard
+damageValue(D) = 0 // deflection
+damageValue(A) = 0 // absorbtion
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "laser_c.HotCore"
+renderName2 = "laser_c.EnergyFringe"
+
+[HotCore]
+renderBase = "draw_bolt"
+textureBlend = "one one modulate"
+textureName = "blastenergy.tga"
+textureRate = 0.5
+startColor = "190 190 255 255"
+finishColor = "50 50 50 0"
+startRadius = 0.1
+finishRadius = 0.1
+segmentTime = 0.15
+textureSpeed = -32.0
+
+[EnergyFringe]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+textureName = "blastenergy.tga"
+textureRate = 0.5
+startColor = "30 10 255 40"
+finishColor = "50 20 255 0"
+startRadius = 0.15
+finishRadius = 0.15
+segmentTime = 0.3
+textureSpeed = -16.0

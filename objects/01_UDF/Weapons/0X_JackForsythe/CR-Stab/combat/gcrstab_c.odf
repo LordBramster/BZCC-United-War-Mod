@@ -1,0 +1,26 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gcrstab_a"
+ordName = "crstab_c"
+wpnName = "CR-Stab"
+fireSound = "gmagg02.wav"
+wpnReticle = "gatstab"
+wpnCategory = "CANN"
+isAssault = 0
+flashName = "gatstab_c.flash"
+aiRange = 100
+
+[CannonClass]
+shotDelay = 0.25 // 2/sec
+shotAlternate = 0
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash.tga"
+textureBlend = "one one modulate"
+startColor = "0 0 255 255"
+finishColor = "55 155 255 0"
+startRadius = 10.0
+finishRadius = 1.0
+animateTime = 0.1
+geomName = "g_sflash.xsi"

@@ -1,0 +1,116 @@
+[GameObjectClass]
+baseName = "ivbomb"
+geometryName = "uvDron00.fbx"
+geometryScale = 0.4
+classLabel = "bomber"
+scrapValue = 0
+scrapCost = 40
+buildTime = 10.0
+maxHealth = 1000
+maxAmmo = 5000
+weaponMask = 00000
+unitName = "X-49 Drone"
+aiName = "BomberProcess"
+aiName2 = "BomberProcess"
+heatSignature = 15.0
+imageSignature = 0.5
+radarSignature = 0.1
+isAssault = 1
+boxCollide = 1
+armorClass = L
+isSingle = false
+canSnipe = false
+
+limitClass1 = "ivbombUDF" 
+limitClass1Count = 6
+limitClass1Text = "Landing Pad Limit Reached"
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 2
+requireName1 = "ibfact"
+requireText1 = "Build Factory
+requireName2 = "ibbomb"
+requireText2 = "Build Bomb Bay"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "ivbombUDF"
+provideName2 = "VIRTUAL_CLASS_BOMBER"
+provideName3 = "flier"
+
+/////////LIGHTS AND EFFECTS//////////////////
+effectHard1 = "hp_emit_1"
+effectName1 = "emit_contrail1"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 200.0
+effectMinVelocity1 = 5.0
+effectMaxVelocity1 = 500.0
+
+
+[CraftClass]
+rangeScan = 400.0f
+periodScan = 5.0f
+velocJam = 5.0f
+
+TeamTransferrable = true
+
+braccelFactor = 0.05f;
+strafeFactor = 0.1f;
+steerFactor = 1.0f;
+omegaFactor = 0.2f;
+velFactor = 0.2f;
+
+selectWaitMsg = "bombgen07.wav"
+selectAttackMsg = "bombgen05.wav"
+selectFollowMsg = ""
+selectGoMsg = ""
+selectOtherMsg = "bombgen07.wav"
+
+goMsg = "bombgen06.wav"
+attackMsg = "bombgen01.wav"
+followMeMsg = "bombgen03.wav"
+followMsg = "bombgen03.wav"
+repairMsg = "bombgen03.wav"
+reloadMsg = "bombgen03.wav"
+rescueMsg = "bombgen03.wav"
+recycleMsg = "bombgen03.wav"
+otherMsg = ""
+
+user1Msg = ""
+killedMsg = "bombgen02.wav"
+
+
+[HoverCraftClass]
+setAltitude = 1.5 // 6
+accelDragStop = 0.0
+accelDragFull = 0.0
+alphaTrack = 20.0
+alphaDamp = 5.0
+pitchPitch = 0.25
+pitchThrust = 0.1
+rollStrafe = 0.1
+rollSteer = 0.1
+
+velocForward = 42.0 // 48
+velocReverse = 2.0
+velocStrafe = 15.0
+accelThrust = 30.0
+accelBrake = 2.0
+omegaSpin = 1.25
+omegaTurn = 1.5
+alphaSteer = 25.0
+accelJump = 300.0
+
+soundThrust = "iapc02.wav"
+soundTurbo = "avtanke3.wav"
+
+[BomberClass]
+flightAltitude = 70.0
+reloadTime = 10
+TargetEngageRange = 115 // radius around target it'll route thru
+bombName = "apbmbr_gbu53" // default loadout

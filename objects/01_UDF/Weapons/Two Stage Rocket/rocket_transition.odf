@@ -1,0 +1,22 @@
+// ===================
+// AT-STABBER VEHICLE HIT
+// ===================
+
+[ExplosionClass]
+classLabel = "quakeblast"
+
+explSound = "gpopp00.wav"
+damageRadius = 0.0
+
+damageValue(N) = 0 // none
+damageValue(L) = 0 // light
+damageValue(H) = 0 // heavy
+
+damageValue(S) = 0 // standard
+damageValue(D) = 0 // deflection
+damageValue(A) = 0 // absorbtion
+
+[QuakeBlastClass]
+quakeCount = 1
+quakeClass = "rocket2"
+quakeMagnitude = 0

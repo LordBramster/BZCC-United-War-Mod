@@ -1,0 +1,13 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "concblast"
+altName = "gsonic_a"
+wpnName = "Concussive Round"
+fireSound = "sonic01.wav"
+wpnReticle = "gsonic_c"
+wpnCategory = "CANN"
+aiRange = 190
+
+[CannonClass]
+shotDelay = 0.5 // 2/sec
+shotAlternate = 1

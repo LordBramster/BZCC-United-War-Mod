@@ -1,0 +1,18 @@
+[GameObjectClass]
+baseName = "apthrmpl"
+classLabel = "apmortar"
+
+scrapCost = 30
+
+unitName = "Thermal Imploder"
+
+requireCount = 2
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+requireName2 = "ibsbay"
+requireText2 = "Build Service Bay"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gthrmpl"

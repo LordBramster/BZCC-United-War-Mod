@@ -1,0 +1,67 @@
+[OrdnanceClass]
+classLabel = "bouncebomb"
+
+shotGeometry = "ioartl00.fbx"
+shotSound = "crckt02.wav"
+
+xplGround = "xthrmplxpl"
+xplVehicle = "xthrmplxpl"
+xplBuilding = "xthrmplxpl"
+xplExpire = "xthrmplxpl"
+
+renderName = "thrmpl.render"
+
+ammoCost = 60
+lifeSpan = 300
+shotSpeed = 60.0
+
+damageValue(N) = 600
+damageValue(L) = 500
+damageValue(H) = 400
+
+damageValue(S) = 500
+damageValue(D) = 400
+damageValue(A) = 600
+
+[BounceBombClass]
+bounceRatio = 0.02
+bounceSound = "mdmort03.wav"
+bounceBuilding = 1
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "thrmpl.trail"
+renderName2 = "thrmpl.blink_emit"
+
+[Trail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "255 0 0 40"
+finishColor = "255 50 50 0"
+startRadius = 0.1
+finishRadius = 0.0
+segmentTime = 0.2
+
+[blink]
+simulateBase = "sim_null"
+lifeTime = 10.0
+renderBase = "draw_emit"
+emitName = "thrmpl.blink_emit"
+emitDelay = 0.1
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "0.0 0.0 0.0"
+emitInherit = "1.0 1.0 1.0"
+
+[blink_emit]
+renderBase = "draw_twirl_trail"
+emitDelay = 0.1  //1.0
+emitLife = 0.05  //0.5
+textureName = "particle.tga"  //"plasma.tga"
+textureBlend = "one one modulate"
+startColor = "200 20 20 255"
+finishColor = "200 20 20 100"
+startRadius = 2.0
+finishRadius = 0.4
+animateTime = 0.05
+emitinherit = "1.0 1.0 1.0"

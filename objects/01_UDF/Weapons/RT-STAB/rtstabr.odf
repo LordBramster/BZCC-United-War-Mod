@@ -1,0 +1,62 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = NULL //"iostba00.fbx"
+shotSound = "Ordin_a.wav"
+
+renderName = "rtstabr.render"
+
+xplGround = "xsupergnd"
+xplVehicle = "xsupergnd"
+xplBuilding = "xsupercar"
+
+ammoCost = 9
+lifeSpan = 0.42 // 100m
+shotSpeed = 300.0
+
+damageValue(N) = 50 // none // 260
+damageValue(L) = 45 // light // 240
+damageValue(H) = 40 // heavy // 200
+
+damageValue(S) = 55 // standard // 240
+damageValue(D) = 45 // deflection // 200
+damageValue(A) = 60 // absorbtion // 130
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "rtstabr.flare1"
+renderName2 = "rtstabr.core"
+renderName3 = "rtstabr.light"
+
+[Flare1]
+renderBase = "draw_twirl_trail"
+textureName = "plasmahitcore2.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255"
+finishColor = "255 0 0 220"
+startRadius = 0.2 // .5
+finishRadius = 0.01 // .02
+rotationRate = 12.0
+animateTime = 0.02
+emitDelay = 0.0005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "3.0 3.0 3.0"
+emitLife = 0.01 // 0.005
+
+[Core]
+renderBase = "draw_sprite"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255"
+finishColor = "255 0 0 220"
+startRadius = 0.9 // 1.2
+finishRadius = 0.9   // 1.2
+
+[Light]
+renderBase = "draw_light"
+startColor = "255 0 0 855"
+finishColor = "255 0 0 0"
+startRadius = 3.5 // 5.0
+finishRadius = 2.0 // 5.0
+lensFlare = 0

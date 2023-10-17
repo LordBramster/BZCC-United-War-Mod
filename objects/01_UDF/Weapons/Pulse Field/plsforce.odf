@@ -1,0 +1,77 @@
+[WeaponClass]
+classLabel = "forcefield"
+ordName = NULL
+wpnName = "Force Field"
+fireSound = "phan01.wav"
+wpnReticle = "gforce.0"
+wpnPriority = 0
+wpnCategory = "SPEC"
+
+[SpecialItemClass]
+activeSound = "sgtow01.wav"
+expireSound = "phan03.wav"
+ammoCost = 25
+
+[ForceFieldClass]
+renderName = "plsforce.render"
+ammoScale = 0.2
+
+[render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "plsforce.sphere"
+renderName2 = "plsforce.sphere2"
+renderName3 = "plsforce.sphere3"
+renderName4 = "plsforce.sphere4"
+
+[Sphere]
+renderBase = "draw_sphere"
+textureName = "esmoke2sb.tga"
+textureBlend = "one one modulate"
+startColor = "0 80 255 255"
+finishColor = "0 80 255 255"
+startRadius = 3.0
+finishRadius = 6.0
+animateTime = 0.2 // .45
+AddPitch = 21.0
+AddYaw = 22.0
+AddRoll = 19.0
+
+[Sphere2]
+renderBase = "draw_sphere"
+textureName = "esmoke2sb.tga"
+textureBlend = "one one modulate"
+startColor = "0 80 255 160"
+finishColor = "0 80 255 160"
+startRadius = 3.0
+finishRadius = 6.0
+animateTime = 0.2 // .45
+AddPitch = 16.0
+AddYaw = 12.0
+AddRoll = 14.0
+
+[Sphere3]
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "0 10 255 190"
+finishColor = "0 10 255 190"
+startRadius = 3.0
+finishRadius = 6.0
+animateTime = 0.2 // .45
+AddPitch = 9.0
+AddYaw = 8.0
+AddRoll = 8.5
+
+[Sphere4]
+renderBase = "draw_sphere"
+textureName = "esmoke1sb.tga"
+textureBlend = "one one modulate"
+startColor = "0 80 255 5"
+finishColor = "0 80 255 5"
+startRadius = 3.0
+finishRadius = 6.0
+animateTime = 0.2 // .45
+AddPitch = 6.0
+AddYaw = 7.0
+AddRoll = 5.0

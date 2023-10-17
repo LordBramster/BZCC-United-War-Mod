@@ -1,0 +1,11 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Chaffs"
+fireSound = "chaff_thump1.wav"//"crckt01.wav"
+wpnReticle = "gjax.0"
+wpnCategory = "SPEC"
+localAmmo = 16
+
+[DispenserClass]
+shotDelay = 0.20//2.0
+objectClass = "chaff"

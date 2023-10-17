@@ -1,0 +1,12 @@
+[GameObjectClass]
+baseName = "apssmmsl"
+classLabel = "apmortar"
+
+scrapCost = 20
+
+unitName = "SSM Missile"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gssmmsl"

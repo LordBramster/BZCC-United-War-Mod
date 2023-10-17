@@ -1,0 +1,20 @@
+[GameObjectClass]
+geometryName = "prop_FuelTankS1.fbx"
+classLabel = "i76building"
+collisionRadius = 1.0
+scrapCost = 8
+scrapValue = 3
+maxHealth = 1000
+maxAmmo = 0
+unitName = "Fuel Storage Tank"
+heatSignature = 2.0
+imageSignature = 2.0
+radarSignature = 2.0
+canDetect = 1
+canInteract = 1
+canSnipe = 0
+ownsTerrain = 1
+
+armorClass = N
+
+[BuildingClass]

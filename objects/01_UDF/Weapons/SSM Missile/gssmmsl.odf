@@ -1,0 +1,16 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "ssmmsl"
+wpnName = "SSM Missle"
+fireSound = "rcktlaun.wav"
+wpnReticle = "gsplint"
+wpnLadder = "gsplint.L0"
+wpnPriority = 4
+wpnCategory = "MORT"
+
+aiRange = 375 // 350
+//AllowAimHigh = true
+//needLOS = true
+
+[CannonClass]
+shotDelay = 2.8

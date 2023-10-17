@@ -1,0 +1,15 @@
+[OrdnanceClass]
+classLabel = "hestab_c"
+
+
+
+ammoCost = 9
+lifeSpan = 0.6 // 150m
+
+damageValue(N) = 70 // none // 300
+damageValue(L) = 65 // light // 275
+damageValue(H) = 55 // heavy // 250
+
+damageValue(S) = 65 // standard // 275
+damageValue(D) = 55 // deflection // 250
+damageValue(A) = 70 // absorbtion // 300

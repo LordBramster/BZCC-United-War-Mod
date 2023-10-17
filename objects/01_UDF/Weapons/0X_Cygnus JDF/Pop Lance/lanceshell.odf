@@ -1,0 +1,74 @@
+[OrdnanceClass]
+classLabel = "radarpopper"
+
+shotGeometry = NULL
+shotSound = "how03.wav"
+
+xplGround = "xhailgnd"
+xplVehicle = "xhailxpl"
+xplBuilding = "xhailxpl"
+
+renderName = "lanceshell.render"
+
+ammoCost = 10
+lifeSpan = 1e30
+shotSpeed = 30.0
+
+damageValue(N) = 90 // 70//none
+damageValue(L) = 80 // 60//light
+damageValue(H) = 70 // 50//heavy
+
+damageValue(S) = 80 // 60//standard
+damageValue(D) = 70 // 50//deflection
+damageValue(A) = 100 // 70//absorbtion
+
+[RadarPopperClass]
+launchXpl = "xlancef"
+launchOrd = "lancerkt"
+
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "lanceshell.Core"
+renderName2 = "lanceshell.burst"
+renderName3 = "lanceshell.wispyTrail"
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "250 158 10 255" 
+finishColor = "250 158 10 255" 
+startRadius = 0.4
+finishRadius = 0.4
+rotationRate = 10.0
+
+[burst]
+renderBase = "draw_twirl_trail"
+textureName = "sonicboom.tga"
+textureBlend = "one one modulate"
+startColor = "250 218 10 255"
+finishColor = "250 218 10  0" 
+startRadius = 0.3
+finishRadius = 5.5
+rotationRate = 2.0
+animateTime = 0.1
+emitDelay = 0.1
+emitLife = 0.1
+emitinherit = "1.0 1.0 1.0"
+
+[wispyTrail]
+renderBase = "draw_trail"
+textureName = "sonictrail.tga"
+textureBlend = "one one modulate"
+startColor = "255 132 0 100" 
+finishColor = "250 146 35 0"
+textureRate = 0.3 //0.2
+startRadius = 0.5
+finishRadius = 1.0
+segmentLength = 2.0 //3.0
+segmentTime = 2.0
+animateTime = 2.0
+segmentVariance = "2.0 2.5 2.0"
+

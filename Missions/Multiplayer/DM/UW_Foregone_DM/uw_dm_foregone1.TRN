@@ -1,0 +1,33 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX = -2048.0
+MinZ = -2048.0
+Width = 4096.0
+Depth = 4096.0
+Height = 52.5
+Tile = 1
+Color = "255 255 255 255"
+
+[NormalView]
+DiffuseColor = "178.5 178.5 178.5"
+SpecularColor = "10 10 10"
+SpecularPower = 1024.0
+
+[World]
+MusicTrack1=7
+MusicTrack2=8
+MusicTrack3=9
+MusicTrack4=10
+
+[Texture]
+TileTexture1 = "SandBeachWash_d.tga"
+TileTexture2 = "BeachCliff1_d.tga"
+TileTexture3 = "BeachLava1_d.tga"
+TileTexture4 = "SandDesert_d.tga"
+TileTexture5 = "BeachLava1_d.tga"
+TileTexture6 = "SandRock_d.tga"
+TileTexture7 = "SandBeachWash_d.tga"
+TileTexture8 = "SandGravel_d.tga"
+TileTexture9 = "SandBeachFine_d.tga"
+TileTexture10 = "SandBeachRough_d.tga"
