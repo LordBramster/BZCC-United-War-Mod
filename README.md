@@ -39,6 +39,7 @@
 | `Katherlyn` | 3D Models |
 | `F9Bomber` | Scripting/Programming |
 | `JJ173` | Scripting/Programming |
+| `Trosper3` | Scripting/Programming |
 | `Shock` | Art, Promotional Content |
 | `Feign` | Art, Promotional Content |
 | `Jack Forsythe` | Weapons, ODFs |
@@ -70,23 +71,32 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 
 <h2>Instructions</h2>
 
-- Subscribe to the `public playtest` version on the Steam Workshop   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20Here-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+<h3>Steam Workshop:</h3>
+
+- Subscribe to the `public playtest` version on the Steam Workshop: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20Here-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+- Start `Battlezone: Combat Commander`.
 - Disable any active **config** mods.
 - Disable any active **addon** mods.
-- Activate `United War Public Playtest` in the **config** selection menu.
+- Activate the `United War Public Playtest` mod in the **config** selection menu.
 - Play!
 
-<h6>Thanks to all of those who played!</h6>
+<h3>GitHub:</h3>
+
+- Download the latest release `.zip` located [here](https://github.com/LordBramster/BZCC-United-War-Mod/archive/refs/heads/prod.zip).
+- Extract the `.zip` contents to your addon directory here: `C:\Users\...\Documents\My Games\Battlezone Combat Commander\addon\`.
+- Get at it!
+
+> Thanks to all of those who played, and continue to help contribute by testing the mod!
 
 <br>
 
 <!-- STRIPES -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_Title_Info.png">
+  <img width="100%" src="git/img/United_War_Stripes_Title_YT.png">
 </p>
 
 <!-- YOUTUBE -->
-<h2 align="center"><img width="2%" src="https://img.icons8.com/?size=1x&id=19318&format=png"> YouTube Showcase</h2>
+<h2 align="center"><img width="2%" src="https://img.icons8.com/?size=1x&id=19318&format=png"> Teaser Videos</h2>
 <p align="center">
     <a href="https://youtu.be/EVa0s_1YSXY">
         <img width="40%" src="http://img.youtube.com/vi/EVa0s_1YSXY/maxresdefault.jpg">
@@ -98,12 +108,15 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 
 <br>
 
-<!-- STRIPES -->
+<!-- FEATURES -->
+<!--
 <p align="center">
   <img width="100%" src="git/img/United_War_Stripes_Title_Feat.png">
 </p>
 
-- Insert!
+- Coming soon.
+-->
+
 
 <!-- STRIPES -->
 <!--

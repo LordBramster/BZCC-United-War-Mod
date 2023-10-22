@@ -8,7 +8,7 @@ xplGround = "xmortgnd"
 xplVehicle = "xmortxpl"
 xplBuilding = "xmortxpl"
 
-renderName = "mortar_c.render"
+renderName = "u_ordinance_fx.Mortar"
 
 ammoCost = 50
 lifeSpan = 1e30
@@ -21,90 +21,3 @@ damageValue(H) = 300 // heavy
 damageValue(S) = 350 // standard
 damageValue(D) = 300 // deflection
 damageValue(A) = 400 // absorbtion
-
-[Render]
-renderBase = "draw_multi"
-renderCount = 5
-renderName1 = "mortar_c.trail"
-renderName2 = "mortar_c.smoke"
-// NEW BELOW 
-renderName3 = "mortar_c.flare"
-renderName4 = "mortar_c.hottrail"
-renderName5 = "mortar_c.glow"
-
-
-[smoke]
-renderBase = "draw_twirl_trail"
-textureName = "smoke2.tga" // "sssmoke.tga"
-textureBlend = "srcalpha invsrcalpha modulatealpha"
-startColor = "200 200 200 200"// "164 164 164 64"
-finishColor = "255 255 255 0"// "230 230 230 0"
-startRadius = 0.6
-finishRadius = 0.1
-animateTime = 0.6
-emitDelay = 0.015
-emitVelocity = "0.0 0.0 0.0"
-emitVariance = "1.0 1.0 1.0"
-emitLife = 60.0
-
-
-[Trail]
-renderBase = "draw_trail"
-textureName = "strail2.tga"
-textureBlend = "one one modulate"
-textureRate = 0.05
-startColor = "125 125 125 200" // "80 80 80 60"
-finishColor = "255 255 255 0" // "150 150 150 0"
-startRadius = 0.2
-finishRadius = 1.5
-animateTime = 3.0
-segmentTime = 3.0
-
-// NEW BELOW
-[Flare]
-renderBase = "draw_sprite"
-textureName = "lightflare.tga"
-textureBlend = "one one modulate"
-startColor = "255 255 255 255"
-finishColor = "255 255 255 255"
-startRadius = 0.5
-finishRadius = 0.5
-
-[glow]
-renderBase = "draw_sprite"
-textureName = "particle.tga"
-textureBlend = "one one modulate"
-startColor = "255 144 40 255"
-finishColor = "255 144 40 255"
-startRadius = 1.0
-finishRadius = 1.0
-
-[HotTrail]
-renderBase = "draw_trail"
-textureName = "firetrail2.tga"
-textureBlend = "one one modulate"
-textureRate = 0.25 //0.2
-startColor = "255 255 255 255"
-finishColor = "220 255 255 0"
-startRadius = 0.30
-finishRadius = 0.05
-segmentLength = 2.4 //3.0
-segmentTime = 0.1
-animateTime = 0.1
-segmentVariance = "3.0 3.0 3.0"
-
-[SmokeTrail]
-renderBase = "draw_twirl_trail"
-textureName = "smoke2.tga"
-textureBlend = "srcalpha invsrcalpha modulatealpha"
-startColor = "255 191 127 32"
-finishColor = "255 0 0 0"
-startRadius = 0.5
-finishRadius = 2.5
-rotationRate = 6.0
-animateTime = 2.5
-emitDelay = 0.02
-emitVariance = "3.7 3.7 3.7"
-emitInherit = "0.3 0.3 0.3"
-emitLife = 2.5
-BottomInteractsWithTerrain = false

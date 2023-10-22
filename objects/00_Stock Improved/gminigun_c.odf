@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gminigun_a"
+ordName = "minigun_c"
+wpnName = "Minigun"
+fireSound = "gmini01.wav"
+wpnReticle = "gminigun"
+wpnCategory = "GUN"
+isAssault = 0
+flashName = "u_muzzle_fx.Guns_Flash"
+aiRange = 105
+
+[CannonClass]
+shotDelay = 0.1
+shotVariance = 0.01
