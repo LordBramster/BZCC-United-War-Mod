@@ -32,6 +32,32 @@
 
 <br>
 
+
+<!-- STRIPES -->
+<p align="center">
+  <img width="100%" src="git/img/United_War_Stripes_Title_YT.png">
+</p>
+
+<!-- YOUTUBE -->
+<h2 align="center"><img width="3%" src="https://img.icons8.com/?size=1x&id=19318&format=png"> Teaser Videos</h2>
+<p align="center">
+    <a href="https://youtu.be/EVa0s_1YSXY">
+        <img width="40%" src="http://img.youtube.com/vi/EVa0s_1YSXY/maxresdefault.jpg">
+    </a>
+    <a href="https://youtu.be/Gg-AC4nS0YA">
+        <img width="40%" src="http://img.youtube.com/vi/Gg-AC4nS0YA/maxresdefault.jpg">
+    </a>
+</p>
+
+<br>
+
+<!-- STRIPES -->
+<p align="center">
+  <img width="100%" src="git/img/United_War_Stripes_Title_Credits.png">
+</p>
+
+<br>
+
 <!-- CONTRIBUTION -->
 | Contributors | Focus |
 | --- | --- |
@@ -58,7 +84,7 @@
 | `Trosper3` | Playtesting |
 | `BlackDog` | Playtesting |
 
-<br>
+<br><br>
 
 <!-- STRIPES -->
 <p align="center">
@@ -88,55 +114,29 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 
 > Thanks to all of those who played, and continue to help contribute by testing the mod!
 
-<br>
+<br><br>
 
-<!-- STRIPES -->
+<!-- MOD INFO -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_Title_YT.png">
+  <img width="100%" src="git/img/United_War_Stripes_Title_Info.png">
 </p>
 
-<!-- YOUTUBE -->
-<h2 align="center"><img width="2%" src="https://img.icons8.com/?size=1x&id=19318&format=png"> Teaser Videos</h2>
-<p align="center">
-    <a href="https://youtu.be/EVa0s_1YSXY">
-        <img width="40%" src="http://img.youtube.com/vi/EVa0s_1YSXY/maxresdefault.jpg">
-    </a>
-    <a href="https://youtu.be/Gg-AC4nS0YA">
-        <img width="40%" src="http://img.youtube.com/vi/Gg-AC4nS0YA/maxresdefault.jpg">
-    </a>
-</p>
+# Content Nomenclature
+```
 
-<br>
+```
 
-<!-- FEATURES -->
-<!--
+<br><br>
+
+<!-- FEATURES INFO -->
 <p align="center">
   <img width="100%" src="git/img/United_War_Stripes_Title_Feat.png">
 </p>
 
-- Coming soon.
--->
-
-
-<!-- STRIPES -->
-<!--
-<p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_003.png">
-</p>
--->
-
+<!-- RESOURCES -->
 <!--
 https://github.com/chroline/well_app#readme\
 https://github.com/CCOSTAN/Home-AssistantConfig#readme
--->
-
-<!--
-<h1 align="center">
-  <a name="logo" href="#"><img src="./git/img/UDF-Vector-square-blu.png" alt="United War Mod" width="200"></a>
-  <br>
-  United War BATTLEZONE
-</h1>
-<br>
 -->
 
 <!--

@@ -1,0 +1,28 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gflash_a"
+ordName = "flash_c"
+wpnName = "Rupture Beam"
+fireSound = "flash01.wav"
+wpnReticle = "gflashgn"
+wpnCategory = "CANN"
+isAssault = 0
+aiRange = 100
+flashName = "gflash_c.flash"
+
+[CannonClass]
+shotDelay = 0.1
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.11
+renderBase = "draw_light"
+startColor = "255 180 0 300"
+finishColor = "255 0 0 300"
+startRadius = 10.0
+finishRadius = 10.0
+animateTime = 0.11
+attenuateConstant = 1.0
+attenuateLinear = 0.0
+attenuateQuadratic = 15.0
+lensFlare = 0

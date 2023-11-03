@@ -1,0 +1,34 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = NULL
+shotRadius = 1.0
+xplGround = "xflarehit"
+xplVehicle = "xflarehit"
+xplBuilding = "xflarehit"
+
+//renderName = "flarepuff.render"
+ammoCost = 25
+lifeSpan = 1.0
+shotSpeed = 50.0
+
+damageValue(N) = 25
+damageValue(L) = 5
+damageValue(H) = 2
+damageValue(S) = 10
+damageValue(D) = 25
+damageValue(A) = 2
+
+
+[render]
+simulateBase = "sim_smoke"
+renderBase = "draw_twirl"
+textureName = "smoke2.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "60 60 60 0"
+finishColor = "70 70 70 0"
+startRadius = 1.1
+finishRadius = 3.3
+animateTime = 1.0
+emitVariance = "3.0 3.0 3.0"
+rotationRate = 8.0
