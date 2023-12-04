@@ -1,0 +1,140 @@
+[GameObjectClass]
+baseName = "ivcons"
+classLabel = "constructionrig"
+geometryName = "ivcons_skel.fbx"
+//geometryScale = 0.7 //closer size to fvcons
+cockpitName = "ivcons_cockpit.fbx"
+animCount = 12
+animName1 = "idle"
+animFile1 = "ivcons_idle.fbx"
+animName2 = "idle2"
+animFile2 = "ivcons_idle.fbx"
+animName3 = "idle3"
+animFile3 = "ivcons_idle.fbx"
+animName4 = "sitdown"
+animFile4 = "ivcons_startup.fbx"
+animName5 = "walk"
+animFile5 = "ivcons_walk.fbx"
+animName6 = "turn"
+animFile6 = "ivcons_turn.fbx"
+animName7 = "death"
+animFile7 = "ivcons_death.fbx"
+animName8 = "death2"
+animFile8 = "ivcons_death2.fbx"
+animName9 = "death3"
+animFile9 = "ivcons_death3.fbx"
+animName10 = "cons"
+animFile10 = "ivcons_cons.fbx"
+animName11 = "cons2"
+animFile11 = "ivcons_cons2.fbx"
+animName12 = "cons3"
+animFile12 = "ivcons_cons3.fbx"
+
+scrapValue = 20
+scrapCost = 40
+buildTime = 10.0
+maxHealth = 2000
+maxAmmo = 0
+collisionRadius = 5.0
+unitName = "Fabricator"
+aiName = "RigFriend"
+aiName2 = "RigEnemy"
+heatSignature = 1.0
+imageSignature = 2.0
+radarSignature = 2.0
+isAssault = 1
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 2
+provideName1 = "ivcons"
+provideName2 = "VIRTUAL_CLASS_CONSTRUCTIONRIG"
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 = "spotblue2"
+
+[CraftClass]
+rangeScan = 400.0f
+periodScan = 5.0f
+velocJam = 5.0f
+TeamTransferrable = false
+braccelFactor = 0.2
+velFactor = 0.4
+steerFactor = 1.4
+omegaFactor = 0.3
+strafeFactor = 0.1
+avoidSpeed = 5
+
+selectUser1Msg = "ivcons01.wav"
+selectUser2Msg = "ivcons11.wav"
+selectWaitMsg = "ivcons04.wav"
+selectGoMsg = "ivcons02.wav"
+selectOtherMsg = "ivcons10.wav"
+selectFollowMsg = "ivcons03.wav"
+recycleMsg = "ivcons09.wav"
+attackMsg = "ivcons04.wav"
+goMsg = "ivcons05.wav"
+goObjectMsg = "ivcons02.wav"
+user1Msg = "ivcons12.wav"
+user2Msg = "ivcons13.wav"
+followMsg = "ivcons06.wav"
+holdMsg = "ivcons10.wav"
+otherMsg = ""
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 6.5
+velocReverse = 4.0
+velocStrafe = 0.0
+accelThrust = 20.0
+accelBrake = 70.0
+accelDragStop = 2.0
+accelJump = 0.0
+setAltitude = 0.0 // how high off the ground
+alphaTrack = 20.0
+alphaDamp = 5.0
+pitchPitch = 0.0 //nose up
+pitchThrust = 0.0 //nose down
+rollStrafe = 0.0 //rolls while strafing
+omegaSpin = 3.0 //spinning in place speed
+omegaTurn = 2.0 //turning while moving speed
+alphaSteer = 2.0 //how fast it responds to steering
+rollSteer = 0.0 //rolls while steering
+accelDragFull = 0.0 //nothing
+
+soundThrust = "icons01.wav"
+
+[DeployableClass]
+timeDeploy = 2.0
+timeUndeploy = 2.0
+soundDeploy = "avartle0.wav"
+soundUndeploy = "avartle4.wav"
+
+[ConstructionRigClass]
+buildItem1 = "ibpgen"
+buildItem2 = "ibfact"
+buildItem3 = "ibcbun"
+buildItem4 = "ibarmo"
+buildItem5 = "ibsbay"
+buildItem6 = "ibgtow"
+buildItem7 = "ibtrain"
+buildItem8 = "ibtcen"
+buildItem9 = "ibbomb"
+soundBuild = "ivrecye3.wav"
+soundFinish = "ivrecye5.wav"
+stepSound  = "conswalk.wav"
+
+
+//
+// SPARKER FX
+//
+BuildSparkConfig = "sparker_udf"
+LineStartColor = "0 255 100 255"
+LineFinishColor = "0 255 0 0"
+BeamColor = "0 255 100 255"

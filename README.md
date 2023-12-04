@@ -97,22 +97,25 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 
 <h2>Instructions</h2>
 
+*Thanks to all of those who played, and continue to help contribute by testing the mod!*
+
+
 <h3>Steam Workshop:</h3>
 
-- Subscribe to the `public playtest` version on the Steam Workshop: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20Here-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>
+- Subscribe to the `Public Playtest` release on the Steam Workshop <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3036741607"><img alt="Steam Workshop Link" title="Steam Workshop Link" src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20Here-205479?style=for-the-badge&logoColor=white&logo=steam&labelColor=222f40"/></a>.
 - Start `Battlezone: Combat Commander`.
 - Disable any active **config** mods.
 - Disable any active **addon** mods.
 - Activate the `United War Public Playtest` mod in the **config** selection menu.
-- Play!
+- Get at it!
 
 <h3>GitHub:</h3>
 
-- Download the latest release `.zip` located [here](https://github.com/LordBramster/BZCC-United-War-Mod/archive/refs/heads/prod.zip).
+- Download the latest release `.zip` located from the [public playtest branch](https://github.com/LordBramster/BZCC-United-War-Mod/archive/refs/heads/prod.zip) on GitHub.
 - Extract the `.zip` contents to your addon directory here: `C:\Users\...\Documents\My Games\Battlezone Combat Commander\addon\`.
 - Get at it!
-
-> Thanks to all of those who played, and continue to help contribute by testing the mod!
+<br>
+> Note: If you’re a mod member, you can pull the latest branch from GitHub into your `addon/` folder directly
 
 <br><br>
 
@@ -123,7 +126,7 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 
 # Content Nomenclature
 ```
-
+TBD
 ```
 
 <br><br>
@@ -132,6 +135,8 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 <p align="center">
   <img width="100%" src="git/img/United_War_Stripes_Title_Feat.png">
 </p>
+
+- TBD
 
 <!-- RESOURCES -->
 <!--

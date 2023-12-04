@@ -17,261 +17,85 @@ kickRadius = 30.0
 kickOmega = 2.0
 kickVeloc = 3.0
 
-particleTypes = 12
 
-particleClass1 = "xcarxpl.flame1"
+particleTypes = 16 // MAX
+
+particleClass1 = "u_explosion_FX.glarelarge"        // LARGE
 particleCount1 = 1
-particleVeloc1 = "0.1 0.1 0.1"
-particleBias1 = "0.0 0.0 0.0"
-//particleInherit1 = "0.5 0.5 0.5"
+particleVeloc1 = "0.0 0.0 0.0"
 
-particleClass2 = "xcarxpl.flame2"
-particleCount2 = 15 //20
-particleVeloc2 = "30.0 2.0 30.0"
-particleInherit2 = "0.5 0.5 0.5"
+particleClass2 = "u_explosion_FX.shockplanarlarge"  // LARGE
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
 
-particleClass3 = "xcarxpl.smoke"
-particleCount3 = 12
-particleVeloc3 = "22.0 16.0 22.0"
-particleInherit3 = "0.5 0.5 0.5"
-particlePosVar3 = "10.0 0.0 10.0"
+particleClass3 = "u_explosion_FX.shock"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
 
-particleClass4 = "xcarxpl.light"
+particleClass4 = "u_explosion_FX.cloud"
 particleCount4 = 1
-particleVeloc4 = "0.0 0.0 0.0"
-//particleInherit4 = "0.5 0.5 0.5"
+particleVeloc4 = "0.0 10.0 0.0"
 
-particleClass5 = "xcarxpl.spark"
-particleCount5 = 10 //20
-particleVeloc5 = "100.0 50.0 100.0"
-particleBias5 = "0.0 10.0 0.0"
-particleInherit5 = "0.8 0.8 0.8"
-particlePosVar5 = "5.0 0.0 5.0"
+particleClass5 = "u_explosion_FX.light"
+particleCount5 = 1
+particleVeloc5 = "0.0 0.0 0.0"
 
-particleClass6 = "xcarxpl.shock"
-particleCount6 = 1
-particleVeloc6 = "0.0 0.0 0.0"
-//particleInherit6 = "0.5 0.5 0.5"
+particleClass6 = "u_explosion_FX.GroundSmoke"
+particleCount6 = 10 //15
+particleVeloc6 = "35.0 0.0 35.0"
+particleBias6 = "0.0 1.0 0.0"                       // SIRBRAMBLEY
 
-particleClass7 = "xcarxpl.ring"
-particleCount7 = 1
-particleVeloc7 = "0.0 0.0 0.0"
-//particleInherit7 = "0.5 0.5 0.5"
+particleClass7 = "u_explosion_FX.SmokePlume"
+particleCount7 = 10 //15
+particleVeloc7 = "30.0 45.0 30.0" //"10.0 35.0 10.0"
+particlePosVar7 = "3.0 0.0 3.0"
 
-particleClass8 = "xcarxpl.sparkcore"
-particleCount8 = 3 //5
-particleBias8 = "0.0 2.0 0.0"
-particleVeloc8 = "0.6 0.6 0.6"
+particleClass8 = "u_explosion_FX.puff"
+particleCount8 = 15 //20
+particleVeloc8 = "25.0 68.0 25.0" // "25.0 45.0 25.0"
 particlePosVar8 = "3.0 0.0 3.0"
-//particleInherit8 = "0.5 0.5 0.5"
 
-particleClass9 = "xcarxpl.sparktrails"
-particleCount9 = 10
-particleVeloc9 = "50.0 80.0 50.0"
-particlePosVar9 = "5.0 0.0 5.0"
-particleInherit9 = "0.8 0.8 0.8"
+particleClass9 = "u_explosion_FX.DirtKickup"
+particleCount9 = 5 //7
+particleVeloc9 = "10.0 22.0 10.0"
+particlePosVar9 = "3.0 0.0 3.0"
 
-particleClass10 = "xcarxpl.flame3"
-particleCount10 = 5
-particleVeloc10 = "5.0 0.5 5.0"
-particleBias10 = "0.0 5.0 0.0"
-//particleInherit10 = "0.5 0.5 0.5"
+particleClass10 = "u_explosion_FX.Chunks"
+particleCount10 = 10 //15
+particleVeloc10 = "75.0 95.0 75.0"
+particlePosVar10 = "3.0 0.0 3.0"
 
-particleClass11 = "xcarxpl.sootemit"
-particleCount11 = 6 //8
-particleVeloc11 = "10.0 20 10.0"
-particleBias11 = "0.0 0.0 0.0"
-particleInherit11 = "0.5 0.5 0.5"
+particleClass11 = "u_explosion_FX.glowlarge"           // LARGE
+particleCount11 = 1
+particleVeloc11 = "0.0 0.0 0.0"
 
-particleClass12 = "xcarxpl.flame"
-particleCount12 = 1
-particleVeloc12 = "0.0 10.0 0.0"
-particleInherit12 = "0.5 0.5 0.5"
+particleClass12 = "u_explosion_FX.FlameHeat"
+particleCount12 = 6
+particleVeloc12 = "40.0 75.0 40.0"// "35.0 30.0 35.0" // "5.0 10.0 5.0" //"10.0 10.0 10.0"
+particleBias12 = "0.0 20.0 0.0"
+particlePosVar12 = "3.0 0.0 3.0"
 
+particleClass13 = "u_explosion_FX.Flames"
+particleCount13 = 10 //12
+particleVeloc13 = "16.0 67.0 16.0" // "6.0 40.0 6.0" // "12.0 47.0 12.0"
+particlePosVar13 = "3.0 0.0 3.0"
 
+particleClass14 = "u_explosion_FX.sparks"
+particleCount14 = 6
+particleVeloc14 = "110.0 150.0 110.0" // "110.0 90.0 110.0"
+particleBias14 = "0.0 1.0 0.0"
+particlePosVar14 = "3.0 0.0 3.0"
 
-[Flame1]
-simulateBase = "sim_smoke"
-lifeTime = 1.0
-renderBase = "draw_sprite" //"draw_twirl"
-textureName = "xplcore.tga"
-textureBlend = "one one modulate"
-startColor = "255 255 255 255"
-finishColor = "255 100 120 0"
-startRadius = 1.0
-finishRadius = 6.0
-animateTime = 1.0
-//rotationRate = 0.0
-//BottomInteractsWithTerrain = false
+particleClass15 = "u_explosion_FX.streaks"
+particleCount15 = 6 // 9
+particleVeloc15 = "20.0 200.0 20.0" // "110.0 90.0 110.0"
+particleBias15 = "0.0 1.0 0.0"
+particlePosVar15 = "2.0 0.0 2.0"
 
-[Flame2]
-simulateBase = "sim_smoke"
-lifeTime = 1.0
-renderBase = "draw_twirl"
-textureName = "flame.tga"
-textureBlend = "one one modulate"
-startColor = "255 200 60 255"
-finishColor = "255 10 50 0"
-startRadius = 2.3
-finishRadius = 1.0
-animateTime = 1.0
-rotationRate = 2.0
+particleClass16 = "u_explosion_FX.sootemit"
+particleCount16 = 6
+particleVeloc16 = "10.0 50.0 10.0"
+particleBias16 = "0.0 1.0 0.0"
+particleInherit16 = "0.5 0.5 0.5"
 
-
-[Smoke]
-simulateBase = "sim_smoke"
-lifeTime = 5.0
-renderBase = "draw_twirl"
-textureName = "smoke2.tga"
-textureBlend = "srcalpha invsrcalpha modulatealpha"
-startColor = " 50 50 50 255"
-finishColor = "30 15 5 0"
-startRadius = 4.0
-finishRadius = 5.5
-animateTime = 5.0
-rotationRate = 1.0
-
-[Light]
-simulateBase = "sim_smoke"
-lifeTime = 2.0
-renderBase = "draw_light"
-startColor = "255 140 20 2500"
-finishColor = "255 0 0 0"
-startRadius = 100.0
-finishRadius = 20.0
-animateTime = 2.0
-attenuateConstant = 1.0
-attenuateLinear = 0.0
-attenuateQuadratic = 15.0
-lensFlare = 0
-
-[Spark]
-simulateBase = "sim_ember"
-lifeTime = 0.2
-renderBase = "draw_trail"
-textureName = "trail2.tga"
-textureBlend = "one one modulate"
-startColor = "255 255 0 255"
-finishColor = "255 0 0 0"
-startRadius = 0.05
-finishRadius = 0.0
-trailTime = 0.2
-segmentTime = 0.2
-
-[Shock]
-simulateBase = "sim_null"
-lifeTime = 0.2
-renderBase = "draw_sphere"
-textureName = "vsmoke.tga"
-textureBlend = "one one modulate"
-startColor = "255 127 0 63"
-finishColor = "255 0 0 0"
-startRadius = 3.0
-finishRadius = 30.0
-animateTime = 0.2
-latitudeBands = 16
-longitudeSegments = 32
-
-[Ring]
-simulateBase = "sim_null"
-lifeTime = 0.5
-renderBase = "draw_planar"
-textureName = "ring.tga"
-textureBlend = "one one modulate"
-startColor = "255 100 0 127"
-finishColor = "255 5 40 0"
-startRadius = 2.0
-finishRadius = 30.0
-animateTime = 0.5
-
-[SparkCore]
-simulateBase = "sim_smoke"
-lifeTime = 1.0
-startDelay = 0.5
-renderBase = "draw_twirl"
-textureName = "crackle.tga"
-textureBlend = "one one modulate"
-startColor = "90 255 255 255"
-finishColor = "152 90 190 0"
-startRadius = 6.0
-finishRadius = 0.5
-animateTime = 1.0
-rotationRate = 15.0
-BottomInteractsWithTerrain = false
-
-[SparkTrails]
-simulateBase = "sim_ember"
-lifeTime = 3.0
-renderBase = "draw_trail"
-textureName = "trail2.tga"
-textureBlend = "one one modulate"
-textureRate = 1.0
-startColor = "255 200 25 255"
-finishColor = "220 50 5 0"
-startRadius = 0.15
-finishRadius = 0.4
-trailTime = 20.5
-segmentTime = 0.5
-
-[Flame3]
-simulateBase = "sim_smoke"
-lifeTime = 1.0
-renderBase = "draw_sprite" //"draw_twirl"
-textureName = "xplcore.tga"
-textureBlend = "one one modulate"
-startColor = "255 255 255 255"
-finishColor = "255 100 120 0"
-startRadius = 6.0
-finishRadius = 0.0
-animateTime = 1.0
-//rotationRate = 0.0
-//BottomInteractsWithTerrain = false
-
-[sootemit]
-simulateBase = "sim_dust"
-lifeTime = 0.5
-renderBase = "draw_emit"
-emitName = "xcarxpl.sootrail"
-emitDelay = 0.2
-emitVelocity = "15.0 5.0 15.0"
-emitVariance = "100.0 20.0 100.0"
-
-[sootrail]
-simulateBase = "sim_ember"
-renderBase = "draw_twirl_trail"
-textureName = "smoke.tga"
-textureBlend = "srcalpha invsrcalpha modulatealpha"
-startColor = "50 50 50 255"
-finishColor = "5 5 5 0"
-startRadius = 0.3
-finishRadius = 0.6
-rotationRate = 15.0
-emitDelay = 0.01
-emitVelocity = "0.0 0.0 0.0"
-emitVariance = "4.0 4.0 4.0"
-emitLife = 0.4
-animateTime = 0.4
-useTerrainColor = 0.8
-
-[flame]
-simulateBase = "sim_smoke"
-lifeTime = 0.8
-renderBase = "draw_emit"
-emitName = "xcarxpl.flameemit"
-emitDelay = 0.1
-emitVelocity = "0.0 0.0 0.0"
-emitVariance = "10.0 10.0 10.0"
-emitInherit = "1.0 1.0 1.0"
-
-[flameemit]
-simulateBase = "sim_smoke"
-lifeTime = 0.8
-renderBase = "draw_twirl"
-textureName = "fireball_udf.tga"//"fire.tga" // flame2
-textureBlend = "one one modulate"
-startColor = "255 180 0 200"
-finishColor = "255 0 0 0"
-startRadius = 3.5
-finishRadius = 0.0
-animateTime = 0.8
-rotationRate = 5.0
+///////////////////////////////
