@@ -2,9 +2,9 @@
 
 <!-- DESCRIPTION -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_Title_2.png">
+  <img width="100%" src="Extras/images/United_War_Stripes_Title_2.png">
   <br>
-  <!--<img width="100%" src="git/img/BZCC_Title_Bar_s.png">-->
+  <!--<img width="100%" src="Extras/images/BZCC_Title_Bar_s.png">-->
 </p>
 
 <h6 align="center">This mod is still a work-in-progress. Contents of this repository are subject to change.</h6>
@@ -35,7 +35,7 @@
 
 <!-- STRIPES -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_Title_YT.png">
+  <img width="100%" src="Extras/images/United_War_Stripes_Title_YT.png">
 </p>
 
 <!-- YOUTUBE -->
@@ -53,7 +53,7 @@
 
 <!-- STRIPES -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_Title_Credits.png">
+  <img width="100%" src="Extras/images/United_War_Stripes_Title_Credits.png">
 </p>
 
 <br>
@@ -88,7 +88,7 @@
 
 <!-- STRIPES -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_Title_Playtest.png">
+  <img width="100%" src="Extras/images/United_War_Stripes_Title_Playtest.png">
 </p>
 
 ```
@@ -121,7 +121,7 @@ Do not use the mod assets as part of your creations or re-upload any creations f
 
 <!-- MOD INFO -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_Title_Info.png">
+  <img width="100%" src="Extras/images/United_War_Stripes_Title_Info.png">
 </p>
 
 # Content Nomenclature
@@ -133,7 +133,7 @@ TBD
 
 <!-- FEATURES INFO -->
 <p align="center">
-  <img width="100%" src="git/img/United_War_Stripes_Title_Feat.png">
+  <img width="100%" src="Extras/images/United_War_Stripes_Title_Feat.png">
 </p>
 
 - TBD
