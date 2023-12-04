@@ -1,9 +1,0 @@
-[GameObjectClass]
-baseName = "dorelc01"
-classLabel = "dorelc01"
-maxHealth = 5000
-addHealth = 25
-unitName = "Strat-CTF Goal"
-
-[CameraPodClass]
-periodScan = 0.0
