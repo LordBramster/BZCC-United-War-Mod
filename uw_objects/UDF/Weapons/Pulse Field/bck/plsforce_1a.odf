@@ -1,0 +1,29 @@
+[WeaponClass]
+classLabel = "forcefield"
+ordName = NULL
+wpnName = "Force Field"
+fireSound = "phan01.wav"
+wpnReticle = "gforce.0"
+wpnPriority = 0
+wpnCategory = "SPEC"
+
+[SpecialItemClass]
+activeSound = "sgtow01.wav"
+expireSound = "phan03.wav"
+ammoCost = 25
+
+[ForceFieldClass]
+renderName = "plsforce.render"
+ammoScale = 0.2
+
+[Render]
+renderBase = "draw_sphere"
+textureName = "esmoke1sb.tga"
+textureBlend = "one one modulate"
+startColor = "138 0 255 255" // "138 0 255 255"
+finishColor = "127 0 255 20" // "127 0 255 0"
+startRadius = 1.0
+finishRadius = 7.0
+animateTime = 0.1 // .45
+latitudeBands = 8
+longitudeSegments = 16

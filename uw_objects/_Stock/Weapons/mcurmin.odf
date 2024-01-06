@@ -1,0 +1,134 @@
+[GameObjectClass]
+geometryName = "igmcur00.fbx"
+classLabel = "magnet"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 50
+unitName = "M-Curtain"
+effectHard1 = "M-Curtain"
+effectName1 = "mBshield_FX.render"
+
+[MineClass]
+lifeSpan = 30.0
+
+[MagnetMineClass]
+triggerDelay = 1.0
+fieldRadius = 20.0
+objPushCenter = -10.0
+objPushEdge = 25.0
+objDragCenter = 0.2
+objDragEdge = 0.5
+ordPushCenter = 100.0
+ordPushEdge = 250.0
+ordDragCenter = 2.0
+ordDragEdge = 5.0
+
+/*
+[render]
+renderBase = "draw_multi"
+renderCount = 8
+renderName1 = "mcurmin.sphere"
+renderName2 = "mcurmin.sphere2"
+renderName3 = "mcurmin.sphere3"
+renderName4 = "mcurmin.sphere4"
+renderName5 = "mcurmin.edge"
+renderName6 = "mcurmin.edge2"
+renderName7 = "mcurmin.edge3"
+renderName8 = "mcurmin.edge4"
+
+
+[Sphere]
+renderBase = "draw_sphere"
+textureName = "esmoke2sb.tga"
+textureBlend = "one one modulate"
+startColor = "0 80 255 255"
+finishColor = "0 80 255 255"
+startRadius = 3.0
+finishRadius = 20.0
+animateTime = 0.2 // .45
+AddPitch = 21.0
+AddYaw = 22.0
+AddRoll = 19.0
+
+[Sphere2]
+renderBase = "draw_sphere"
+textureName = "esmoke2sb.tga"
+textureBlend = "one one modulate"
+startColor = "0 80 255 160"
+finishColor = "0 80 255 160"
+startRadius = 3.0
+finishRadius = 20.0
+animateTime = 0.2 // .45
+AddPitch = 16.0
+AddYaw = 12.0
+AddRoll = 14.0
+
+[Sphere3]
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "0 10 255 190"
+finishColor = "0 10 255 190"
+startRadius = 3.0
+finishRadius = 20.0
+animateTime = 0.2 // .45
+AddPitch = 9.0
+AddYaw = 8.0
+AddRoll = 8.5
+
+[Sphere4]
+renderBase = "draw_sphere"
+textureName = "esmoke1sb.tga"
+textureBlend = "one one modulate"
+startColor = "0 80 255 5"
+finishColor = "0 80 255 5"
+startRadius = 3.0
+finishRadius = 20.0
+animateTime = 0.2 // .45
+AddPitch = 6.0
+AddYaw = 7.0
+AddRoll = 5.0
+
+[Edge]
+renderBase = "draw_sphere"
+textureName = "shld1e1.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 3.0
+finishRadius = 20.0
+animateTime = 0.2 // .45
+
+[Edge2]
+renderBase = "draw_sphere"
+textureName = "shld1e2.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 3.0
+finishRadius = 20.0
+animateTime = 0.2 // .45
+
+
+[Edge3]
+renderBase = "draw_sphere"
+textureName = "shld1e3.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 3.0
+finishRadius = 20.0
+animateTime = 0.2 // .45
+
+
+[Edge4]
+renderBase = "draw_sphere"
+textureName = "shld1e4.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 3.0
+finishRadius = 20.0
+animateTime = 0.2 // .45
+*/

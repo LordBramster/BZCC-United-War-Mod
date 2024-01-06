@@ -1,0 +1,12 @@
+[solid]
+diffuse = 1.000000  1.000000  1.000000  1.000000
+specular = 0.200000  0.200000  0.200000  1.000000
+specularPower = 25.000000
+emissive = 0.000000  0.000000  0.000000  1.000000
+ambient = 0.000000  0.000000  0.000000  1.000000
+
+
+[texture]
+diffuse = pj_salv00_A_1_junk_salv00_d.dds
+normal = pj_salv00_A_1_junk_salv00_n.dds
+specular = pj_salv00_A_1_junk_salv00_s.dds

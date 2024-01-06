@@ -1,0 +1,132 @@
+// ===================
+// POPPER VEHICLE HIT
+// ===================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 9
+
+particleClass1 = "xlancegnd.Shock"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleInherit1 = "0.5 0.5 0.5"
+
+particleClass2 = "xlancegnd.SmokePlume"
+particleCount2 = 4 //10
+particleVeloc2 = "10.0 35.0 10.0"
+particleInherit2 = "0.5 0.5 0.5"
+
+particleClass3 = "xlancegnd.Light"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+particleInherit3 = "0.8 0.8 0.8"
+
+particleClass4 = "xlancegnd.FlameHeat"
+particleCount4 = 6
+particleVeloc4 = "10.0 10.0 10.0"
+particleBias4 = "0.0 6.0 0.0"
+particleInherit4 = "0.5 0.5 0.5"
+
+particleClass5 = "xlancegnd.Flames"
+particleCount5 = 6 //8
+particleVeloc5 = "19.0 19.0 19.0"
+particleBias5 = "0.0 10.0 0.0"
+particleInherit5 = "0.5 0.5 0.5"
+
+particleClass6 = "xlancecar.HullAsh"
+particleCount6 = 5 //10
+particleVeloc6 = "110.0 90.0 110.0"
+particleBias6 = "0.0 12.0 0.0"
+particleInherit6 = "0.8 0.8 0.8"
+
+particleClass7 = "xlancecar.Secondary"
+particleCount7 = 2
+particleVeloc7 = "25.0 25.0 25.0" //"50.0 50.0 50.0"
+particleInherit7 = "0.5 0.5 0.5"
+
+particleClass8 = "xlancecar.lightflare"
+particleCount8 = 1
+particleVeloc8 = "0.0 0.0 0.0"
+particleInherit8 = "0.8 0.8 0.8"
+
+particleClass9 = "xlancecar.burst"
+particleCount9 = 1
+particleVeloc9 = "0.0 0.0 0.0"
+particleInherit9 = "0.8 0.8 0.8"
+
+explSound = "how04.wav"
+
+damageRadius = 15.0
+
+damageValue(N) = 50 // none
+damageValue(L) = 42 // light
+damageValue(H) = 28 // heavy
+
+damageValue(S) = 40 // standard
+damageValue(D) = 26 // deflection
+damageValue(A) = 48 // absorbtion
+
+[Secondary]
+simulateBase = "sim_smoke"
+lifeTime = 0.45
+startDelay = 0.25
+renderBase = "draw_emit"
+emitDelay = 0.2
+emitName = "xlancecar.SecondaryRender"
+emitVariance = "3.0 3.0 3.0"
+emitVelocity = "0.0 0.0 0.0"
+emitInherit = "1.0 1.0 1.0"
+
+	[SecondaryRender]
+	simulateBase = "sim_smoke"
+	lifeTime = 1.9
+	renderBase = "draw_multi"
+	renderCount = 4
+	renderName1 = "xlancegnd.Light"
+	renderName2 = "xlancegnd.FlameHeat"
+	renderName3 = "xlancegnd.Flames"
+	renderName4 = "xlancegnd.smokeplume"
+	
+
+[LightFlare]
+simulateBase = "sim_smoke"
+lifeTime = 0.2
+renderBase = "draw_twirl"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "227 150 50 255"  
+finishColor = "227 150 50 0"  
+startRadius = 10.0
+finishRadius = 2.0
+animateTime = 0.2
+rotationRate = 5.0
+BottomInteractsWithTerrain = false
+
+[HullAsh]
+simulateBase = "sim_ember"
+lifeTime = 6.0
+renderBase = "draw_twirl"
+textureName = "spark.tga"
+textureBlend = "one one modulate"
+startColor = "227 143 80 255"   
+finishColor = "227 100 80 0"  
+startRadius = 0.2
+finishRadius = 0.2
+animateTime = 6.0
+BottomInteractsWithTerrain = false
+
+[Burst]
+simulateBase = "sim_smoke"
+renderBase = "draw_twirl_trail"
+textureName = "sonicboom.tga"
+textureBlend = "one one modulate"
+startColor = "217 248 16 255"
+finishColor = "252 253 164 0" 
+startRadius = 3.0
+finishRadius = 0.0
+rotationRate = 10.0
+animateTime = 0.1
+emitDelay = 0.1
+emitLife = 0.1
+emitinherit = "1.0 1.0 1.0"

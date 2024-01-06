@@ -1,0 +1,13 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "rduum"
+wpnName = "DUUM Rocket"
+fireSound = "gpopp00.wav"
+wpnReticle = "grktbomb"
+wpnCategory = "CANN"
+isAssault = 0
+localAmmo = 3
+
+[CannonClass]
+shotDelay = 1
+shotAlternate = 0

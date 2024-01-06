@@ -1,0 +1,10 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "AD Drone"
+fireSound = "bMortFire1.wav"
+wpnReticle = "gprox"
+wpnCategory = "SPEC"
+
+[DispenserClass]
+shotDelay = 3.0
+objectClass = "ivaddrone1"

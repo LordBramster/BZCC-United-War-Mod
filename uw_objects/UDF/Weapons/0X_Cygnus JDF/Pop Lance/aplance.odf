@@ -1,0 +1,20 @@
+[GameObjectClass]
+baseName = "aplance"
+classLabel = "apmortar"
+
+scrapCost = 40
+unitName = "Lance"
+
+requireCount = 3
+requireName1 = "jbcomm"
+requireText1 = "Build Communications Tower"
+requireName2 = "jbbarr"
+requireText2 = "Build Barracks"
+requireName3 = "jbShield"
+requireText3 = "Build Shield Generator"
+lightName1 = "omniyellow"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "glancer"

@@ -1,0 +1,12 @@
+[GameObjectClass]
+baseName = "approx"
+classLabel = "apspecial"
+
+scrapCost = 20
+
+unitName = "Disruptor Mine"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gdsrpt1"

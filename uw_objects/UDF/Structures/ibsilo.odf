@@ -1,0 +1,45 @@
+[GameObjectClass]
+baseName = "ibsilo"
+mrmFactor = 0
+geometryName = "ibsilo00.fbx"
+classLabel = "silo"
+scrapCost = 20
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 0
+unitName = "UDF Storage Silo"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 1.0
+isAssault = 1
+canInteract=1 // for missile lock
+buildSupport = "B"
+buildRequire = "N"
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibsilo"
+provideName2 = "VIRTUAL_CLASS_SILO"
+provideName3 = "VIRTUAL_CLASS_STORAGE"
+////////////////////////////////////
+
+
+/////// OBJECT LIMITS //////////////
+////////////////////////////////////
+
+[BuildingClass]
+soundAmbient = "ibsilo_amb.wav"
+
+[SiloClass]
+initDelay = 1e6 // 10.0 // How long before produces first scrap.
+scrapDelay = 1e6 // 10.0 // How long between scrap after first is created.
+scrapHold = 40 // Scrap capacity. 
+detectRange = 150
+ScrapDropPoint = true
+RequiresExtractor = true

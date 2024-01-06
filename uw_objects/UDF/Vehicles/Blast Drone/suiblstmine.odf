@@ -1,0 +1,34 @@
+[GameObjectClass]
+geometryName = "igflar00.xsi"
+classLabel = "flare"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 100
+unitName = "Suicide Mine"
+heatSignature = 100.0
+scanTeamLimit = 3
+canInteract = 0
+
+[MineClass]
+lifeSpan = 0.01
+
+[FlareMineClass]
+payloadName = "suiblstord"
+fireSound = "smine01.wav"
+triggerDelay = 0.0
+shotDelay = 2.0
+shotVariance = 0.0
+damageRadius = 10.0
+
+damageValue(N) = 850
+damageValue(L) = 500
+damageValue(H) = 300
+
+damageValue(S) = 500
+damageValue(D) = 700
+damageValue(A) = 300
+
+kickRadius = 0.0
+kickVeloc = 0.0
+kickOmega = 0.0

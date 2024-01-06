@@ -1,0 +1,94 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = NULL
+shotRadius = 0.5
+xplGround = "xmaggnd1_c"
+xplVehicle = "xmagcar1_c"
+xplBuilding = "xmagcar1_c"
+
+renderName = "plscan1.render"
+
+ammoCost = 2
+lifeSpan = 0.5 // 75m
+shotSpeed = 180.0 // 150
+
+damageValue(N) = 55 // none // 600
+damageValue(L) = 30 // light // 300
+damageValue(H) = 10 // heavy // 60
+
+damageValue(S) = 30 // standard // 300
+damageValue(D) = 55 // deflection // 600
+damageValue(A) = 15 // absorbtion // 120
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 5
+renderName1 = "plscan1.light"
+renderName2 = "plscan1.flame"
+renderName3 = "plscan1.smoke"
+renderName4 = "plscan1.trail"
+renderName5 = "plscan1.smoke2"
+
+[Light]
+renderBase = "draw_light"
+startColor = "255 50 200 255" 
+finishColor = "255 50 200 255" 
+startRadius = 5.0
+finishRadius = 5.0
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 200 255" 
+finishColor = "155 55 0 0" 
+startRadius = 0.1
+finishRadius = 0.05
+rotationRate = 10.0
+animateTime = 0.05
+emitDelay = 0.001 //0.0005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "1.0 1.0 1.0"
+emitLife = 0.05
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke2.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 200 31" 
+finishColor = "155 55 0 0" 
+startRadius = 0.2
+finishRadius = 0.5
+rotationRate = 10.0
+animateTime = 0.05
+emitDelay = 0.002
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "1.0 1.0 1.0"
+emitLife = 0.05
+
+[Trail]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 200 127" 
+finishColor = "155 55 0 0" 
+startRadius = 0.05
+finishRadius = 0.0
+segmentTime = 0.1
+TextureRate = 0.4
+TextureSpeed = 6.0
+
+[Smoke2]
+renderBase = "draw_twirl_trail"
+textureName = "smoke2.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor =   "25 10 12 60" //"153 153 153 128"
+finishColor = "25 5 12 0"
+startRadius = 0.2
+finishRadius = 1.0
+animateTime = 1.0 //2.0
+emitDelay = 0.04
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "0.6 0.6 0.6"
+emitLife = 1.0 //3.0

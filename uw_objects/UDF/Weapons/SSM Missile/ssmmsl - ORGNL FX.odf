@@ -1,0 +1,113 @@
+[OrdnanceClass]
+classLabel = "mortar_c"
+shotGeometry = "longbomb00.fbx"
+shotSound = "rcktflght.wav"
+
+xplGround = "xminxpl"
+xplVehicle = "xminxpl"
+xplBuilding = "xminxpl"
+
+renderName = "ssmmsl.render"
+
+ammoCost = 10
+shotSpeed = 75.0 // 356 m
+
+damageValue(N) = 250 // none
+damageValue(L) = 260 // light
+damageValue(H) = 270 // heavy
+
+damageValue(S) = 260 // standard
+damageValue(D) = 250 // deflection
+damageValue(A) = 270 // absorbtion
+
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 6
+renderName1 = "ssmmsl.flare"
+renderName2 = "ssmmsl.sparkle"
+renderName3 = "ssmmsl.smoketrail"
+renderName4 = "ssmmsl.hottrail"
+renderName5 = "ssmmsl.glow"
+renderName6 = "ssmmsl.flame"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 8.0
+finishRadius = 1.0 // 1.0
+
+[glow]
+renderBase = "draw_sprite"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 118 20 255"
+startRadius = 5.0 // 7.0
+finishRadius = 2.0 // 4.0
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "plasma.tga" // flame
+textureblend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 88 0 240"
+startRadius = 0.2
+finishRadius = 0.0
+rotationRate = 2.0
+animateTime = 1.0
+emitDelay = 0.04 //0.005
+emitVariance = "3.0 3.0 3.0"
+emitLife = 1.0
+BottomInteractsWithTerrain = false
+
+[HotTrail]
+renderBase = "draw_trail"
+textureName = "firetrail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.005 // 0.009
+startColor = "255 255 255 255"
+finishColor = "255 140 80 0"
+startRadius = 3.2 // 3.7
+finishRadius = 0.8 // 0.2
+animateTime = 0.6 // 0.2
+segmentTime = 0.3 // 0.1
+segmentLength = 1.2 // 0.4
+TextureSpeed = 8.0
+
+[SmokeTrail]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "70 60 46 180" // "235 235 235 240" 
+finishColor = "235 235 235 60" // "70 60 46 46"
+// smoke color 80 70 56 50
+startRadius = 0.4
+finishRadius = 3.8 // 5.0
+rotationRate = 2.6 // 3.0
+animateTime = 1.8
+emitDelay = 0.009 // 0.009
+// emitDelay 0.02
+emitVariance = "3.7 3.7 3.7"
+emitInherit = "0.3 0.3 0.3"
+emitLife = 4.5
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 200 63 0"
+startRadius = 1.7
+finishRadius = 0.8
+rotationRate = 2.0
+animateTime = 0.3
+emitDelay = 0.01 //0.005
+emitVelocity = "0.5 0.5 -10.0"
+emitVariance = "3.0 3.0 2.0"
+emitLife = 3.2 // 0.2
+emitInherit = "1.0 1.0 1.0"
+BottomInteractsWithTerrain = false

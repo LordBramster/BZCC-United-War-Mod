@@ -1,0 +1,24 @@
+//[spark]
+//simulateBase = "sim_ember"
+//lifeTime = 3.0
+//renderBase = "draw_trail"
+//textureBlend = "one one modulate"
+//startColor = "255 127 0 255"
+//finishColor = "255 0 0 0"
+//startRadius = 0.05
+//finishRadius = 0.0
+//trailTime = 3.0
+//segmentTime = 1
+
+[Spark_udf]
+simulateBase = "sim_smoke"
+lifeTime = 4.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 155 255"
+finishColor = "0 255 0 0"
+startRadius = 2.0
+finishRadius = 0.1
+animateTime = 4.0
+rotationRate = 5.0

@@ -1,0 +1,170 @@
+[GameObjectClass]
+baseName = "ivcargo00"
+classLabel = "apc"
+geometryName = "uvfreight00.fbx" // "uvfreight01.fbx"
+collisionRadius = 7.0
+scrapValue = 20
+scrapCost = 50
+customCost = 80
+buildTime = 20.0
+customTime = 20.0
+maxHealth = 10000
+maxAmmo = 1 // Can't be 0 for InternalSoldiersAreAmmo to work
+unitName = "CB4 Freighter"
+aiName = "APCProcess"
+heatSignature = 10.0
+imageSignature = 0.5
+radarSignature = 0.0
+isAssault = 1
+canSnipe = 0
+armorClass = L
+boxCollide = 1
+
+/////// REQUIREMENTS ///////////////
+/* 
+requireCount = 2
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibtrain"
+requireText2 = "Build Training"
+*/
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ivapc"
+provideName2 = "VIRTUAL_CLASS_APC"
+provideName3 = "flier"
+
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotwhite2" // "spotyellow2" // "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 = "spotwhite2" // "spotyellow2" "spotblue2"  
+LightsOnlyWhenPiloted = true
+
+effectHard1 = "hp_noz_1"// "hp_dust_1"
+effectName1 = "dusttrail_hover" // "dusttrail"
+// effectName1 = "emit_contrail2"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 65.0
+effectHard2 = "hp_noz_2" // "hp_dust_2"
+effectName2 = "dusttrail_hover" // "dusttrail"
+// effectName1 = "emit_contrail2"
+effectMinAltitude2 = 0.0
+effectMaxAltitude2 = 65.0
+effectHard3 = "hp_noz_3"// "hp_dust_3"
+effectName3 = "dusttrail_hover" // "dusttrail"
+// effectName1 = "emit_contrail2"
+effectMinAltitude3 = 0.0
+effectMaxAltitude3 = 65.0
+effectHard4 = "hp_noz_4" // "hp_dust_4"
+effectName4 = "dusttrail_hover" // "dusttrail"
+// effectName1 = "emit_contrail2"
+effectMinAltitude4 = 0.0
+effectMaxAltitude4 = 65.0
+
+effectHard5 = "hp_noz_1"
+effectName5 = "u_thrusters_fx.Thrust_Trail"
+effectMinAltitude5 = 20.0 // 5.0
+effectMaxAltitude5 = 90.0 // 500.0
+effectHard6 = "hp_noz_2" 
+effectName6 = "u_thrusters_fx.Thrust_Trail"
+effectMinAltitude6 = 20.0 // 5.0
+effectMaxAltitude6 = 90.0 // 500.0
+effectHard7 = "hp_noz_3"
+effectName7 = "u_thrusters_fx.Thrust_Trail"
+effectMinAltitude7 = 20.0 // 5.0
+effectMaxAltitude7 = 90.0 // 500.0
+effectHard8 = "hp_noz_4" 
+effectName8 = "u_thrusters_fx.Thrust_Trail"
+effectMinAltitude8 = 20.0 // 5.0
+effectMaxAltitude8 = 90.0 // 500.0
+
+effectHard9 = "hp_noz_1"
+effectName9 = "u_thrusters_fx.Thrust_Idle"
+effectMinAltitude9 = 90.0
+effectMaxAltitude9 = 500.0
+effectHard10 = "hp_noz_2" 
+effectName10 = "u_thrusters_fx.Thrust_Idle"
+effectMinAltitude10 = 90.0
+effectMaxAltitude10 = 500.0
+effectHard11 = "hp_noz_3"
+effectName11 = "u_thrusters_fx.Thrust_Idle"
+effectMinAltitude11 = 90.0
+effectMaxAltitude11 = 500.0
+effectHard12 = "hp_noz_4" 
+effectName12 = "u_thrusters_fx.Thrust_Idle"
+effectMinAltitude12 = 90.0
+effectMaxAltitude12 = 500.0
+
+//////////////////////////////////////////////////////////////////////////
+[CraftClass]
+rangeScan = 200.0
+periodScan = 0.0
+velocJam = 0.0
+braccelFactor = 0.05f;
+strafeFactor = 0.1f;
+steerFactor = 1.0f;
+omegaFactor = 0.2f;
+velFactor = 0.2f;
+avoidSpeed = 20;
+topSpeed = 30;
+
+selectWaitMsg = "uvfreiva.wav"
+selectDropoffMsg = "uvfreivf.wav"
+selectPickupMsg = "uvfreivg.wav"
+selectOtherMsg = "uvfreivj.wav"
+goMsg = "uvfreiv0.wav"
+attackMsg = "uvfreiv9.wav"
+followMsg = "uvfreivh.wav"
+followMeMsg = "uvfreiv3.wav"
+repairMsg = "uvfreiv4.wav"
+recycleMsg = "uvfreiv6.wav"
+rescueMsg = "uvfreiv5.wav"
+otherMsg = "uvfreivh.wav"
+deployedMsg = "uvfreiv2.wav"
+
+//////////////////////////////////////////////////////////////////////////
+
+[HoverCraftClass]
+setAltitude = 14
+accelDragStop = 4.0
+accelDragFull = 1.0
+alphaTrack = 10.0
+alphaDamp = 3.0
+pitchPitch = 0.5
+pitchThrust = 0.1
+rollStrafe = 0.1
+rollSteer = 0.1
+velocForward = 12.0
+velocReverse = 9.0
+velocStrafe = 9.0
+accelThrust = 30.0
+accelBrake = 30.0
+omegaSpin = 0.15
+omegaTurn = 0.15
+alphaSteer = 1.0
+accelJump = 150.0
+soundThrust = "airheavy.wav" // "ibomb.wav"
+soundSteer = "airheavy.wav"
+
+//////////////////////////////////////////////////////////////////////////
+
+[APCClass]
+soldierType = "ivhscav"
+soldierCount = 0
+soldierDelay = 1.0 // Everyone deploys at once
+timeDeploy = 18.0 // 7.0
+timeUndeploy = 18.0
+flightAltitude = 100.0
+SoldierAltitude = 10.0 // Altitude at which it starts spitting soldiers out.
+InternalSoldiersAreAmmo = true // if true, ammo meter shows the % of soldiers in the APC. (updated occasionally)
+soundDeploy = "platform_open.wav"
+soundUndeploy = "platform_close.wav"
+
+//////////////////////////////////////////////////////////////////////////
+
+[Lod1]
+//geometryName = "ivapcL1.fbx" ;geometry for lod1
+//distance = 100

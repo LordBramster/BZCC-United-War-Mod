@@ -1,0 +1,12 @@
+[GameObjectClass]
+baseName = "aprocket_1"
+classLabel = "aprocket"
+
+scrapCost = 20
+
+unitName = "SRAAM"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "g_rocket1"

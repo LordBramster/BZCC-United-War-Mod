@@ -1,0 +1,179 @@
+[GameObjectClass]
+geometryName = "igmits00.fbx"
+classLabel = "flare"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 100
+unitName = "Thermite Mine"
+heatSignature = 200.0
+effectHard1 = "Thermite Mine"
+effectName1 = "therm_mine.render"
+
+[MineClass]
+lifeSpan = 10
+
+[FlareMineClass]
+payloadName = "flarepuff"
+fireSound = "smine01.wav"
+triggerDelay = 2.0
+shotDelay = 0.02
+shotVariance = 0.2
+damageRadius = 25.0
+damageValue(N) = 5 // none
+damageValue(L) = 5 // light
+damageValue(H) = 300 // heavy
+damageValue(S) = 5 // standard
+damageValue(D) = 25 // deflection
+damageValue(A) = 5 // absorbtion
+kickRadius = 10.0
+kickVeloc = 0.15
+kickOmega = 0.25
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 6
+renderName1 = "therm_mine.core"
+renderName2 = "therm_mine.light"
+renderName3 = "therm_mine.sparks"
+renderName4 = "therm_mine.sparks2"
+renderName5 = "therm_mine.hotsmoke"
+renderName6 = "therm_mine.smoke"
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 10.0
+startDelay = 2.0
+renderBase = "draw_twirl"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 160"
+finishColor = "20 20 20 0"
+startRadius = 2.5
+finishRadius = 2.5 
+animateTime = 10.0
+BottomInteractsWithTerrain = false
+
+[light]
+simulateBase = "sim_dust"
+lifeTime = 10
+startDelay = 2.0
+renderBase = "draw_emit"
+emitName = "therm_mine.lightA"
+emitDelay = 0.25
+emitVelocity = "0.0 0 0.0"
+emitVariance = "1.0 1.0 1.0"
+
+[LightA]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_light"
+startColor = "240 240 240 400"
+finishColor = "218 140 0 0"
+startRadius = 30.0
+finishRadius = 30.0
+animateTime = 0.3
+attenuateConstant = 1.0
+attenuateLinear = 0.0
+attenuateQuadratic = 15.0
+lensFlare = 1
+
+
+[sparks]
+simulateBase = "sim_dust"
+lifeTime = 10
+startDelay = 2.0
+renderBase = "draw_emit"
+emitName = "therm_mine.sparksA"
+emitDelay = 0.01
+emitVelocity = "0.0 20.0 0.0"
+emitVariance = "20.0 20.0 20.0"
+emitbBias = "1.0 5.0 1.0"
+
+[SparksA]
+simulateBase = "sim_ember"
+lifeTime = 0.2
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.3
+startColor = "255 225 100 255"
+finishColor = "255 166 5 0"
+startRadius = 0.1
+finishRadius = 0.0
+animateTime = 0.2
+segmentTime = 0.15
+segmentLength = 0.3
+
+[sparks2] // Falling Sparks
+simulateBase = "sim_dust"
+lifeTime = 10
+startDelay = 2.0
+renderBase = "draw_emit"
+emitName = "therm_mine.sparksB"
+emitDelay = 0.08
+emitVelocity = "0.0 5.0 0.0"
+emitVariance = "20.0 20.0 20.0"
+emitbBias = "1.0 5.0 1.0"
+
+[SparksB]
+simulateBase = "sim_ember"
+lifeTime = 2.0
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.3
+startColor = "255 158 0 255"
+finishColor = "218 140 0 0"
+startRadius = 0.1
+finishRadius = 0.0
+animateTime = 2.0
+segmentTime = 0.15
+segmentLength = 0.3
+
+[hotsmoke]
+simulateBase = "sim_dust"
+lifeTime = 10
+startDelay = 2.0
+renderBase = "draw_emit"
+emitName = "therm_mine.hotsmoke2"
+emitDelay = 0.002
+emitVelocity = "0.0 30.0 0.0"
+emitVariance = "10.0 5.0 10.0"
+
+[hotsmoke2]
+simulateBase = "sim_smoke"
+lifeTime = 5
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 209 50 0"
+startRadius = 0.4
+finishRadius = 1.0
+animateTime = 0.06
+rotationRate = 5.0
+
+[smoke]
+simulateBase = "sim_dust"
+lifeTime = 10.0
+startDelay = 2.0
+renderBase = "draw_emit"
+emitName = "therm_mine.smoke2"
+emitDelay = 0.1 //0.03
+emitVelocity = "0.0 15.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+
+[smoke2]
+simulateBase = "sim_smoke"
+lifeTime = 5.0
+renderBase = "draw_twirl"
+textureName = "smoke2.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "200 200 200 200"
+finishColor = "90 90 90 0"
+startRadius = 0.4
+finishRadius = 7.0
+animateTime = 5.0
+rotationRate = 10.0
+maxCount = 256

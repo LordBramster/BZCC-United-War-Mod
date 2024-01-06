@@ -1,0 +1,26 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gHEAT1_c"
+ordName = "HEAT1_c"
+wpnName = "HE-AT Shell"
+fireSound = "gmg1.wav"
+wpnReticle = "gmaggun.0"
+wpnCategory = "CANN"
+isAssault = 1
+flashName = "gHEAT1_a.flash"
+aiRange = 150
+
+[CannonClass]
+shotDelay = 0.5 // 2/sec
+shotAlternate = 0
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "ionflash.tga"
+textureBlend = "one one modulate"
+startColor = "255 80 0 255"
+finishColor = "216 50 0 100"
+startRadius = 8.0
+finishRadius = 0.8
+animateTime = 0.08
+geomName = "g_sflash.xsi"//sflash

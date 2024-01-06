@@ -1,0 +1,21 @@
+[ExplosionClass]
+classLabel = "explosion"
+FriendlyFireDamage = true // Always damage.
+
+explSound = "xmv1.wav"
+
+damageRadius = 25.0
+
+damageValue(N) = 850
+damageValue(L) = 500
+damageValue(H) = 300
+
+damageValue(S) = 500
+damageValue(D) = 700
+damageValue(A) = 300
+
+kickRadius = 5.0
+kickOmega = 5.0
+kickVeloc = 5.0
+
+particleTypes = 0

@@ -1,0 +1,22 @@
+[WeaponClass]
+altName = "gbarrock_c"
+classLabel = "mortar"
+ordName = "barrock_a"
+wpnName = "Barrage Missiles"
+fireSound = "crckt01.wav"
+wpnReticle = "gmortar"
+wpnLadder = "gmortar.L0"
+wpnPriority = 2
+wpnCategory = "ROCK"
+isAssault = true
+
+aiRange = 200.0
+//needLOS = false
+AllowAimHigh = false
+
+[CannonClass]
+shotDelay = 0.1
+shotAlternate = 1
+salvoCount = 3
+salvoDelay = 0.01
+shotVariance = 0.40

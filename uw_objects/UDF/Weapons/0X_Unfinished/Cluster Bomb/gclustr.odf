@@ -1,0 +1,19 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "clustr"
+wpnName = "Cluster Bomb"
+fireSound = "cmort01.wav"
+wpnReticle = "gmdmgun.0"
+wpnLadder = "gmortar.L0"
+wpnPriority = 2
+wpnCategory = "MORT"
+
+aiRange = 200.0
+//needLOS = false
+AllowAimHigh = false
+
+[CannonClass]
+shotDelay = 3.4
+salvoCount = 5
+salvoDelay = 0.18
+shotVariance = 0.30

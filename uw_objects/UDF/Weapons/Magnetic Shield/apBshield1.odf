@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apBshield1"
+classLabel = "apspecial"
+
+scrapCost = 20
+
+unitName = "M-Curtain"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "mBshield1"

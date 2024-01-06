@@ -1,0 +1,114 @@
+[GameObjectClass]
+baseName = "ivhscav"
+classLabel = "scavengerH"
+geometryName = "uv_salvager_002_FINAL.fbx"
+scrapValue = 10
+scrapCost = 20
+buildTime = 10.0
+maxHealth = 2500
+maxAmmo = 2500
+unitName = "UDF Salvager"
+aiName = "ScavHProcess"
+aiName2 = "ScavHProcess"
+heatSignature = 0.5
+imageSignature = 2.5
+radarSignature = 0.1
+isAssault = 1
+armorClass = N
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 1
+provideName1 = "ivhscav"
+
+////////////////////////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2" 
+LightsOnlyWhenPiloted = true
+
+//don't set an altitude for tracked vehicles
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail3"
+effectMinVelocity1 = 5.0
+effectMaxVelocity1 = 500.0
+effectHard2 = "hp_dust_2"
+effectName2 = "dusttrail3"
+effectMinVelocity2 = 5.0
+effectMaxVelocity2 = 500.0
+
+[CraftClass]
+rangeScan = 300.0
+periodScan = 5.0
+velocJam = 5.0
+braccelFactor = 0.05
+velFactor =	0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+
+avoidSpeed = 20
+TopSpeed = 45
+
+TeamTransferrable = true
+GotoTaskHasLeader = false
+
+selectOtherMsg = "ivscav01.wav"
+selectWaitMsg = "ivscav01.wav"
+selectGoMsg = "ivscav02.wav"
+selectFollowMsg = "ivscav03.wav"
+selectPickupMsg = "avscavk.wav"  //getting scrap
+selectDropoffMsg = "avscavm.wav"  //dropping scrap
+// selectUser1Msg = "avscavh.wav"  //no scrap on radar
+selectUser2Msg = "avscavf.wav"  //cant do
+otherMsg = "avscavh.wav" // "ivscav11.wav" we read you
+goMsg = "ivscav04.wav"
+goObjectMsg = "ivscav13.wav"
+followMsg = "ivscav03.wav"
+followMeMsg = "ivscav07.wav"
+repairMsg = "ivscav08.wav"
+rescueMsg = "ivscav09.wav"
+recycleMsg = "ivscav10.wav"
+holdMsg = "ivscav04.wav"
+
+[HoverCraftClass]
+velocForward = 19.0 // 
+velocReverse = 10.0 // 
+velocStrafe = 7.5 // 
+accelThrust = 50.0 // acceleration 
+accelDragStop = 20.0 // how fast it stops once hands are off controls 
+accelJump = 10.0
+aiAccelDrag = 10
+setAltitude = 1.0 // how high off the ground
+alphaTrack = 20.0 //springs speed it rights itself 
+alphaDamp = 5.0 //shocks 
+pitchPitch = 0.1 // nose up 
+pitchThrust = 0.1 // nose down 
+rollStrafe = 0.1 // rolls while strafing 
+omegaSpin = 3.5 // spinning in place speed 
+omegaTurn = 3.5 // turning while moving speed 
+alphaSteer = 5.5 // how fast it responds to steering 
+rollSteer = 0.1 // rolls while steering 
+soundThrust = "avscave3.wav"  //engine sfx
+soundJump = "avscave6.wav"  //turbo sfx
+
+[DeployableClass]
+timeDeploy = 5.0
+timeUndeploy = 5.0
+soundDeploy = "irecy03.wav"
+soundUndeploy = "trundepl.wav"
+
+[ScavengerHClass]
+soundPickup = "suck.wav"
+scrapHold = 10 // 20
+deployClass = "ibscav"
+enablePoolGoTo = false
+doDrop = false //true
+DropDist = 1.0 // 8.0
+doDropRecycler = false // true
+doDropSilo = true
+doDropExtractor = false
+DeathScrapDropRatio = 1.0
+AddScrapHoldToTotal = false // auto scrap generation
+RequiresExtractor = true // auto scrap generation
+deployOffset = 16.0  //<saftest 6.0  //scav //4.5

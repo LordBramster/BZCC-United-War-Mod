@@ -1,0 +1,16 @@
+[GameObjectClass]
+geometryName = "igprox00.fbx"
+classLabel = "proximity"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 200
+unitName = ""
+
+[MineClass]
+lifeSpan = 15
+xplBlast = "xAPERSmxpl"
+
+[ProximityMineClass]
+triggerRadius = 35.0
+suppressRadius = 10.0

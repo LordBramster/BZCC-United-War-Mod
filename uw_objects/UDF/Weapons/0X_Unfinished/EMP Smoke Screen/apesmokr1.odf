@@ -1,0 +1,12 @@
+[GameObjectClass]
+baseName = "apesmokr1"
+classLabel = "apspecial"
+
+scrapCost = 20
+
+unitName = "EMP Smoke Screen"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gesmokr1"

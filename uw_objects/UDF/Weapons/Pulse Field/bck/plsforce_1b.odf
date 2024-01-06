@@ -1,0 +1,53 @@
+[WeaponClass]
+classLabel = "forcefield"
+ordName = NULL
+wpnName = "Force Field"
+fireSound = "phan01.wav"
+wpnReticle = "gforce.0"
+wpnPriority = 0
+wpnCategory = "SPEC"
+
+[SpecialItemClass]
+activeSound = "sgtow01.wav"
+expireSound = "phan03.wav"
+ammoCost = 25
+
+[ForceFieldClass]
+renderName = "plsforce.render"
+ammoScale = 0.2
+
+[render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "plsforce.smoke"
+renderName2 = "plsforce.sphere"
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "0 80 255 64"
+finishColor = "0 0 255 0"
+startRadius = 4.0
+finishRadius = 6.0
+animateTime = 0.1
+rotationRate = 2.0
+emitDelay = 0.01
+emitVelocity = "0.0 20.0 0.0"
+emitVariance = "4.0 4.0 4.0"
+emitLife = 0.1
+
+[Sphere]
+renderBase = "draw_sphere"
+textureName = "esmoke1sb.tga"
+textureBlend = "one one modulate"
+startColor = "138 0 255 255"
+finishColor = "127 0 255 20"
+startRadius = 1.0
+finishRadius = 7.0
+animateTime = 0.2 // .45
+latitudeBands = 8
+longitudeSegments = 16
+AddPitch = 0.3
+AddYaw = 0.3
+AddRoll = 0.3

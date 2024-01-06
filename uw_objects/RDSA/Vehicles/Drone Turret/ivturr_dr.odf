@@ -1,0 +1,106 @@
+[GameObjectClass]
+baseName = "ivturr"
+geometryName = "rv_turr_A_7.fbx"
+cockpitName = "ivturr_cockpit.fbx"
+classLabel = "turrettank"
+scrapCost = 40
+customCost = 45
+scrapValue = 10
+buildTime = 10.0
+customTime = 10.0
+maxHealth = 2500
+maxAmmo = 3000
+addAmmo = 4
+unitName = "Drone Turret"
+aiName = "TurretTankFriend"
+aiName2 = "TurretTankEnemy"
+heatSignature = 0.1
+imageSignature = 1.0
+radarSignature = 0.1
+isAssault = 0
+armorClass = L
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 2
+provideName1 = "ivturr"
+provideName2 = "VIRTUAL_CLASS_TURRET"
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "HP_GUNS_1"
+weaponName1 = "gminigun_a"
+weaponAssault1 = 0
+weaponHard2 = "HP_GUNS_2"
+weaponName2 = "gminigun_a"
+weaponAssault2 = 0
+weaponHard3 = "HP_GUNS_3"
+weaponName3 = "gminigun_a"
+weaponAssault3 = 0
+weaponHard4 = "HP_GUNS_4"
+weaponName4 = "gminigun_a"
+weaponAssault4 = 0
+
+////////////////////////////////////
+turretCount = 2
+turretName1 = "mainbody"
+turretName2 = "turret_y"
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotred"
+
+[CraftClass]
+rangeScan = 300.0
+periodScan = 3.0
+velocJam = 1.0
+engageRange = 150
+weaponPitch = 1.0
+
+selectGoMsg = "ivturr01.wav"
+selectAttackMsg = "ivturr03.wav"
+selectDeployMsg = "ivturr04.wav"
+selectOtherMsg = "ivturr03.wav"
+holdMsg = "ivturr12.wav"
+goMsg = "ivturr05.wav"
+followMeMsg = "ivturr08.wav"
+reloadMsg = "ivturr09.wav"
+repairMsg = "ivturr09.wav"
+rescueMsg = "ivturr10.wav"
+recycleMsg = "ivturr11.wav"
+otherMsg = "ivturr11.wav"
+attackMsg = "ivturr06.wav"
+deployedMsg = "ivturr14.wav"
+killedMsg = "ivturr07.wav"
+
+[HoverCraftClass]
+setAltitude = 4.25
+accelDragStop = 20.0
+alphaTrack = 20.0
+alphaDamp = 5.0
+pitchPitch = 0.5
+pitchThrust = 0.5
+rollStrafe = 0.5
+rollSteer = 0.5
+velocForward = 40.0
+velocReverse = 30.0
+velocStrafe = 30.0
+accelThrust = 50.0
+accelBrake = 50.0
+omegaSpin = 4.0
+omegaTurn = 1.5
+alphaSteer = 10.0
+accelJump = 15.0
+
+soundThrust = "ssent01j.wav"
+
+[DeployableClass]
+timeDeploy = 3.0
+timeUndeploy = 3.0
+heightDeploy = 4.0
+soundDeploy = "rv_turr_deploy.wav"
+soundUndeploy = "rv_turr_undeploy.wav"
+
+[TurretTankClass]
+omegaTurret = 2.5
+alphaTurret = 7.0

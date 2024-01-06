@@ -1,0 +1,10 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "EMP Smoke Screen"
+fireSound = "mmine01.wav"
+wpnReticle = "gproxmin"
+wpnCategory = "SPEC"
+
+[DispenserClass]
+shotDelay = 7.0
+objectClass = "esmokr1"

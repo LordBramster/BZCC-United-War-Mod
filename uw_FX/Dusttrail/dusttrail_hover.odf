@@ -1,0 +1,24 @@
+[dusttrail_hover]
+renderBase = "draw_emit"
+emitName = "dusttrail_hover.dustemit"
+emitDelay = 0.05
+emitDelayVar = 0.02
+emitVelocity = "0.0 4.0 0.0"
+emitVariance = "22.0 0.0 16.0" // "10.0 0.0 5.0"
+emitInherit = "0.5 0.5 0.5"
+emitPosVariance = "5.0 0.0 0.0"
+
+[dustemit]
+simulateBase = "sim_dust"
+lifeTime = 0.5
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 64"
+finishColor = "255 255 255 0"
+useTerrainColor = 0.9
+startRadius = 8.25 //0.5
+finishRadius = 18.5 //3.5
+animateTime = 0.5
+rotationRate = 2.0
+maxCount = 512

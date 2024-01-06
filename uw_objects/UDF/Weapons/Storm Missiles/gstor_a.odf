@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gstor_c"
+ordName = "stor_a"
+wpnName = "Storm Rocket"
+fireSound = "crckt01.wav"
+wpnReticle = "gmlock_c.0"
+wpnCategory = "ROCK"
+aiRange = 125
+isAssault = 1
+
+[CannonClass]
+shotDelay = 2.0
+shotVariance = 0.03

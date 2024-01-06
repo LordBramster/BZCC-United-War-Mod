@@ -1,0 +1,13 @@
+[solid]
+diffuse = 1.000000  1.000000  1.000000  1.000000
+specular = 0.900000  0.900000  0.900000  1.000000
+specularPower = 32.000000
+emissive = 0.000000  0.000000  0.000000  1.000000
+ambient = 0.588235  0.588235  0.588235  1.000000
+
+
+[texture]
+diffuse = uvfreight00_mb4_d.tga
+normal = uvfreight00_mb4_n.tga
+specular = uvfreight00_mb4_s.tga
+emissive = uvfreight00_mb4_e.tga

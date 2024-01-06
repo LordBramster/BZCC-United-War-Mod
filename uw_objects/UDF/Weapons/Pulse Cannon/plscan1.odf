@@ -1,0 +1,28 @@
+[OrdnanceClass]
+classLabel = "thermalmissile"
+
+shotGeometry = NULL
+shotRadius = 0.5
+xplGround = "xflabld"
+xplVehicle = "xflacar"
+xplBuilding = "xlasebld"
+
+renderName = "n_ordinance_fx.Heatwave"
+
+ammoCost = 4 // 2
+lifeSpan = 1.25 // 0.5 // 75m
+shotSpeed = 180.0 // 150
+
+damageValue(N) = 60 // none // 600
+damageValue(L) = 35 // light // 300
+damageValue(H) = 15 // heavy // 60
+
+damageValue(S) = 35 // standard // 300
+damageValue(D) = 60 // deflection // 600
+damageValue(A) = 20 // absorbtion // 120
+
+[MissileClass]
+omegaTurn = 1.0
+
+[ThermalMissileClass]
+coneAngle = 0.4

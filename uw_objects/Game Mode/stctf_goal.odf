@@ -1,0 +1,30 @@
+//used in SP pluto map
+[GameObjectClass]
+baseName = "dorelc01"
+geometryName = "dorelc02.fbx"
+animCount = 1
+animName1 = "loop"
+animFile1 = "dorelc02.fbx"
+RunAnimation = "loop"
+RunAnimIsLooped = true
+classLabel = "artifact"
+scrapCost = 1
+scrapValue = 0
+maxHealth = 2000
+maxAmmo = 0
+unitName = "Artifact Beta"  //"crate"
+aiName = "PowerUpProcess"
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+
+canCollide = 1
+
+///////// LIGHTS & EFFECTS /////////
+effectHard1 = "dorelc02"
+effectName1 = "ibtele.render"
+
+[CameraPodClass]
+omegaSpin = 0.0
+rangeScan = 0.0
+periodScan = 5.0  //0.0

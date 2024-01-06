@@ -1,0 +1,65 @@
+[GameObjectClass]
+baseName = "ib_lasertow"
+geometryName = "ub_laserpost1_T.fbx"
+cockpitName = "ibgtow_cockpit.fbx"
+classLabel = "turret"
+scrapCost = 50
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Laser Post"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+collisionRadius = 5 // 11.0
+armorClass = H
+AllowUndergroundSpawn = 1  //from pb137# to ensure ground preplacement
+ownsTerrain = true
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibcbun"
+requireText1 = "Build Relay Bunker"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibgtow"
+provideName2 = "VIRTUAL_CLASS_GUNTOWER"
+provideName3 = "defender"
+
+/////// weapons ////////////////////
+weaponMask = 00011
+weaponHard1 = "hp_cannon_1"
+weaponName1 = "grgunSB1"
+weaponAssault1 = 0
+weaponHard2 = "hp_cannon_2"
+weaponName2 = "grgunSB1"
+weaponAssault2 = 0
+
+/////// LIGHTS and EFFECTS /////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotred"
+
+/////// TURRETS ////////////////////
+turretCount = 3
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+turretName3 = "hp_eyepoint"
+
+[BuildingClass]
+soundAmbient = "igtow01.wav"
+
+[CraftClass]
+rangeScan = 250
+periodScan = 1.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 250
+
+[TurretCraftClass]
+omegaTurret = 2.0
+detectRange = 250

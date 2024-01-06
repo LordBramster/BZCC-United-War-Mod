@@ -1,0 +1,20 @@
+[GameObjectClass]
+geometryName = "pj_wreck_atank00_A_1.fbx"
+classLabel = "i76building"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 50000
+maxAmmo = 0
+unitName = ""
+heatSignature = 6.0
+imageSignature = 8.0
+radarSignature = 4.0
+collisionRadius = 5.0
+canDetect = 1
+canInteract = 0
+canSnipe = 0
+ownsTerrain = 1
+
+[BuildingClass]
+bldEdge = "wwww"
+soundAmbient = "pr_pipe1"

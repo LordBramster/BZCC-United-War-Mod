@@ -1,0 +1,11 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Thermite Mine"
+fireSound = "mmine01.wav"
+wpnReticle = "gflare"
+wpnPriority = 1
+wpnCategory = "SPEC"
+
+[DispenserClass]
+shotDelay = 2.0
+objectClass = "therm_mine"

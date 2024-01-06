@@ -1,0 +1,13 @@
+[solid]
+diffuse = 1.000000  1.000000  1.000000  1.000000
+specular = 0.501961  0.501961  0.501961  1.000000
+specularPower = 1024.000000
+emissive = 0.000000  0.000000  0.000000  1.000000
+ambient = 0.000000  0.000000  0.000000  1.000000
+
+
+[texture]
+diffuse = as_RemnantSpire1a_Spire1_d.tga
+emissive = as_RemnantSpire1a_Spire1_e.tga
+normal = as_RemnantSpire1a_Spire1_n.tga
+specular = as_RemnantSpire1a_Spire1_s.tga

@@ -1,0 +1,142 @@
+// ===============
+// SONIC CANNON GROUND HIT
+// ===============
+
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "sonic02.wav"
+damageRadius = 10.0
+
+damageValue(N) = 150 // none
+damageValue(L) = 100 // light
+damageValue(H) = 50 // heavy
+
+damageValue(S) = 100 // standard
+damageValue(D) = 150 // deflection
+damageValue(A) = 50 // absorbtion
+
+kickRadius = 5.0
+kickOmega = 20.0
+kickVeloc = 50.0
+
+particleTypes = 6
+
+particleClass1 = "xsonicgnd_c.thrust"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xsonicgnd_c.shock"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xsonicgnd_c.puff"
+particleCount3 = 3
+particleVeloc3 = "10.0 10.0 10.0"
+
+particleClass4 = "xsonicgnd_c.dust"
+particleCount4 = 5
+particleVeloc4 = "7.5 0.0 7.5"
+
+particleClass5 = "xsonicgnd_c.burst"
+particleCount5 = 1
+particleVeloc5 = "0.0 0.0 0.0"
+
+particleClass6 = "xsonicgnd_c.chunks"
+particleCount6 = 8 //12
+particleVeloc6 = "27.5 42.0 27.5"
+particleBias6 = "0.0 0.0 0.0"
+
+[Thrust]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_sprite"
+spriteCenter.x = 0.0
+spriteCenter.y = 1.0
+textureName = "ground.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "110 110 110 110"
+finishColor = "165 165 50 0"
+startRadius = 0.3
+finishRadius = 7.3
+animateTime = 0.5
+useTerrainColor = 0.9
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255" 
+finishColor = "150 155 0 0" 
+startRadius = 0.2
+finishRadius = 2.8
+animateTime = 0.4
+latitudeBands = 8
+longitudeSegments = 16
+
+[Puff]
+simulateBase = "sim_smoke"
+lifeTime = 0.3
+renderBase = "draw_twirl"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 200"
+finishColor = "255 230 230 0"
+startRadius = 0.01
+finishRadius = 5.0
+animateTime = 0.3
+rotationrate = 20.0
+
+[Dust]
+simulateBase = "sim_smoke"
+lifeTime = 1.2
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "100 100 60 200"
+finishColor = "120 120 80 0"
+startRadius = 0.05
+finishRadius = 4.0
+animateTime = 1.1
+rotationRate = 2.0
+useTerrainColor = 0.9
+
+
+[Chunks]
+simulateBase = "sim_chunk"
+lifeTime = 3.0
+renderBase = "draw_twirl"
+textureName = "dirt.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "20 20 20 255"
+finishColor = "20 20 20 0"
+startRadius = 0.7
+finishRadius = 0.7
+animateTime = 3.0
+useTerrainColor = 0.9
+BottomInteractsWithTerrain = false
+
+[burst]
+simulateBase = "sim_null"
+lifeTime = 0.6
+renderBase = "draw_emit"
+emitName = "xsoniccar_c.ripple"
+emitDelay = 0.2
+emitVelocity = "0 0 0"
+emitVariance = "0.0 0.0 0.0"
+
+[ripple]
+simulateBase = "sim_null"
+emitLife = 0.4
+renderBase = "draw_twirl"
+textureName = "sonicboom.tga"
+textureBlend = "one one modulate"
+startColor = "200 255 120 150" 
+finishColor = "200 255 255 0" 
+startRadius = 0.3
+finishRadius = 8.0
+animateTime = 0.4
+rotationRate = 3.0
+BottomInteractsWithTerrain = false

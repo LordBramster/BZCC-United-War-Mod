@@ -1,0 +1,13 @@
+[solid]
+diffuse = 1.000000  1.000000  1.000000  1.000000
+specular = 0.501961  0.501961  0.501961  1.000000
+specularPower = 20.000000
+emissive = 0.000000  0.000000  0.000000  1.000000
+ambient = 0.000000  0.000000  0.000000  1.000000
+
+
+[texture]
+diffuse = pl_earth00_d.dds
+normal = pl_earth00_n.dds
+specular = pl_earth00_s.dds
+emissive = pl_earth00_e.dds

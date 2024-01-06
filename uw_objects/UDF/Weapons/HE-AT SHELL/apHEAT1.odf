@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apstab"
+classLabel = "apcannon"
+
+scrapCost = 10
+
+unitName = "HE-AT Shell"
+
+requireCount = 1
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gHEAT1_c"
